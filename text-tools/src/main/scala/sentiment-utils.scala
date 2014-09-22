@@ -54,6 +54,8 @@ object SentimentUtils{
     terriblePattern replaceAllIn(textStr, langSentiment(4))
   }
 
+
+
   def repeatedCharsHandler(lang: String)(text: String): String = lang match{
     case "en" => removeRepeatedChars(List('c','e','f','g','l','m','n','p','o','t' ), text)
     case "es" => removeRepeatedChars(List('c','l','r','n'), text)
@@ -70,7 +72,12 @@ object SentimentUtils{
     doublePattern replaceAllIn(singlePattern replaceAllIn(text,
                                                           m => m.matched.substring(0,1) + "^"),
                                                           m => m.matched.substring(0,2) + "^")
+  }
 
+  def upperCaseHandler(text: String): String = {
+    val upperCasePattern = new Regex("\\d*[A-ZÁÉÍÓÚÀÈÌÒÙÑÄÖÜ]{2,}\\d*")
+
+    upperCasePattern replaceAllIn(text, m => m.matched.toLowerCase)
   }
 
 
