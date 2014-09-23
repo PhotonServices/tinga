@@ -1,24 +1,17 @@
 package tinga.nlp.texttools
 
-import TextPreprocessor
-import WordToken
+import scala.collection.mutable.MutableList
+import TextPreprocessor._
 
 class PoSTagger(lang: String) {
-  def this(u: Unit): Unit = {
+  def this() = {
     this("en")
     println("No language defined using english as default")
   }
 
-  object PosTagger {
-    def apply(lang: String) = new PosTagger(lang)
-  }
-
-  private lazy val _lexicon    = TextPreprocessor.readFileToMap(currentDir +
-                                                                f"pos-trained-corpus/$lang%s-lexicon.txt")
-  private lazy val _morphology = TextPreprocessor.readFileToStringList(currentDir +
-                                                                       f"pos-trained-corpus/$lang%s-morphology.txt")
-  private lazy val _context    = TextPreprocessor.readFileToStringList(currentDir +
-                                                                       f"pos-trained-corpus/$lang%s-context.txt")
+  private lazy val _lexicon    = readFileToMap(currentDir + f"pos-trained-corpus/$lang%s-lexicon.txt")
+  private lazy val _morphology = readFileToStringList(currentDir + f"pos-trained-corpus/$lang%s-morphology.txt")
+  private lazy val _context    = readFileToStringList(currentDir + f"pos-trained-corpus/$lang%s-context.txt")
   private val _cmd = (
                       List("word",          // Word is x
                             "char",         // Word contain x
@@ -61,7 +54,7 @@ class PoSTagger(lang: String) {
                         ))
 
   def tagsetTransform(tag: String, from: String = "penntreebank", to: String = "universal"): String = {
-    val mapping = TextProcessor.readFileToMap(currenDir + f"tagsets/$from%s-$to%s.txt")
+    val mapping = readFileToMap(currentDir + f"tagsets/$from%s-$to%s.txt")
     mapping.getOrElse(tag, "")
   }
 
@@ -112,7 +105,8 @@ class PoSTagger(lang: String) {
   }
 
   def lexiconTagger(word: String): (String, String) = {
-    val posTag = tagsetTransform(_lexicon.getOrElse(word, ""))
+    //val posTag = tagsetTransform(_lexicon.getOrElse(word, ""))
+    val posTag = _lexicon.getOrElse(word, "")
     (word, posTag)
   }
 
@@ -143,7 +137,7 @@ class PoSTagger(lang: String) {
     val start = MutableList.tabulate(3)(x =>("emptyWord", "emptyTag"))
     val end   = MutableList.tabulate(3)(x =>("emptyWord", "emptyTag"))
     val expression = start ++ taggedExpression ++ end
-    for(i <- 3 until exp.length-3){
+    for(i <- 3 until expression.length-3){
       for(rule <- _context){
         val r = rule.split(" ")
         if(expression(i)._2 == r(0) || r(0) == "*"){
@@ -156,20 +150,17 @@ class PoSTagger(lang: String) {
     expression filter(x => x != ("emptyWord", "emptyTag"))
   }
 
-  def tagExpression(expression: MutableList[String]): MutableList[(String, String)]) = {
-  val taggedExpression = expression.zipWithIndex map { case (v,i) => { var taggedWord = lexiconTagger(v);
-                                                    taggedWord = morphologyTagger(taggedWord._1, taggedWord._2,
-                                                                                  if(i > 0) expression(i-1) else "",
-                                                                                  if(i < expression.length-1) expression(i+1) else "")
-                                                    taggedWord
+  def tagExpression(expression: MutableList[String]): MutableList[(String, String)] = {
+    val taggedExpression = expression.zipWithIndex map { case (v,i) => { var taggedWord = lexiconTagger(v);
+                                                                             taggedWord = morphologyTagger(taggedWord._1, taggedWord._2,
+                                                                                                          if(i > 0) expression(i-1) else "",
+                                                                                                          if(i < expression.length-1) expression(i+1) else "")
+                                                                             taggedWord
                                                                             }}
     contextTagger(taggedExpression)
   }
+}
 
-  def main(args: Array[String]) {
-    println(TextPreprocessor.preprocess("es")("La comida me parece bien @!", true, List(), true, List("me")))
-    println(SentimentUtils.emoticonsIdentifier("it")(":( La comida  x-p XP me :)) parece bien :)"))
-    println(SentimentUtils.repeatedCharsHandler("es")(":( La comida  x-p XP me !!! parece bieeeeeen :)"))
-  }
-
+object PoSTagger{
+  def apply(lang: String) = new PoSTagger(lang)
 }

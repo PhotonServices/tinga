@@ -75,7 +75,7 @@ object SentimentUtils{
   }
 
   def upperCaseHandler(text: String): String = {
-    val upperCasePattern = new Regex("\\d*[A-ZÁÉÍÓÚÀÈÌÒÙÑÄÖÜ]{2,}\\d*")
+    val upperCasePattern = new Regex("\\d*[A-ZÁÉÍÓÚÀÈÌÒÙÑÄÖÜ]{4,}\\d*")
 
     upperCasePattern replaceAllIn(text, m => m.matched.toLowerCase)
   }

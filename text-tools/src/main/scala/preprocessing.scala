@@ -2,9 +2,10 @@ package tinga.nlp.texttools
 
 import scala.collection.JavaConversions.mapAsScalaMap
 import scala.collection.mutable.Map
+import scala.collection.mutable.MutableList
 import scala.io.Source
 
-object TextPreprocessor {
+object TextPreprocessor{
 
   val punctuationChars = List('.',',',';',':','¡','!','¿','?','(',')','[',']','{','}','`',
                               ''','\\','\'','@','#','$','^','&','*','+','-','|','=','_',
@@ -77,5 +78,18 @@ object TextPreprocessor {
 
   def isAllowedChar(c: Char, chars: List[Char]) = c <= '~' || chars.contains(c)
 
+  def main(args: Array[String]) {
+    val englishTagger = new PoSTagger("en")
+    println(englishTagger.tagExpression(MutableList("Food", "is", "awesome")))
+    val spanishTagger = new PoSTagger("es")
+    println(spanishTagger.tagExpression(MutableList("El", "auto", "corre", "rapidamente")))
+    val frenchTagger = new PoSTagger("fr")
+    println(frenchTagger.tagExpression(MutableList("La", "vie", "en", "rose")))
+    println(TextPreprocessor.preprocess("es")("La comida me parece bien @!", true, List(), true, List("me")))
+    println(SentimentUtils.emoticonsIdentifier("it")(":( La comida  x-p XP me :)) parece bien :)"))
+    println(SentimentUtils.repeatedCharsHandler("es")(":( La comida  x-p XP me !!! parece bieeeeeen :)"))
+    println(SentimentUtils.upperCaseHandler("BIEN MAL HORRIBLE"))
   }
+
+
 }
