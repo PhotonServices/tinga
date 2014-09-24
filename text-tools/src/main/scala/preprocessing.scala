@@ -80,12 +80,12 @@ object TextPreprocessor{
 
   def main(args: Array[String]) {
     val englishTagger = new PoSTagger("en")
-    println(englishTagger.tagExpression(MutableList("Food", "is", "awesome")))
+    println(englishTagger.tagExpression(MutableList("Food", "is", "awesome", "I","'ll", "friendly")))
     val spanishTagger = new PoSTagger("es")
-    println(spanishTagger.tagExpression(MutableList("El", "auto", "corre", "rapidamente")))
+    println(spanishTagger.tagExpression(MutableList("El", "auto", "corre", "rapidamente",".","PANTALLA","Del","iphone")))
     val frenchTagger = new PoSTagger("fr")
     println(frenchTagger.tagExpression(MutableList("La", "vie", "en", "rose")))
-    println(TextPreprocessor.preprocess("es")("La comida me parece bien @!", true, List(), true, List("me")))
+    println(TextPreprocessor.preprocess("es")("La comida me parece bien @!, esta es una linea de prueba de Mr. Bean y la Sra. Magloire y punto.", true, List(), true, List("me")))
     println(SentimentUtils.emoticonsIdentifier("it")(":( La comida  x-p XP me :)) parece bien :)"))
     println(SentimentUtils.repeatedCharsHandler("es")(":( La comida  x-p XP me !!! parece bieeeeeen :)"))
     println(SentimentUtils.upperCaseHandler("BIEN MAL HORRIBLE"))

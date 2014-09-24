@@ -150,8 +150,26 @@ class PoSTagger(lang: String) {
     expression filter(x => x != ("emptyWord", "emptyTag"))
   }
 
+  def tagWord(word: String): (String, String) = {
+    var taggedWord = lexiconTagger(word)
+    if(taggedWord._2 == ""){
+      if(Character.isUpperCase(taggedWord._1(0))){
+        taggedWord = (taggedWord._1, "NNP")
+      }
+      else{
+        if(word.matches("""\d+""")){
+          taggedWord = (taggedWord._1, "CD")
+        }
+        else{
+          taggedWord = (taggedWord._1, "NN")
+        }
+      }
+    }
+    taggedWord
+  }
+
   def tagExpression(expression: MutableList[String]): MutableList[(String, String)] = {
-    val taggedExpression = expression.zipWithIndex map { case (v,i) => { var taggedWord = lexiconTagger(v);
+    val taggedExpression = expression.zipWithIndex map { case (v,i) => { var taggedWord = tagWord(v);
                                                                              taggedWord = morphologyTagger(taggedWord._1, taggedWord._2,
                                                                                                           if(i > 0) expression(i-1) else "",
                                                                                                           if(i < expression.length-1) expression(i+1) else "")
