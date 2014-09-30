@@ -3,7 +3,6 @@ package tinga.nlp.texttools
 import scala.util.matching.Regex
 
 
-
 object SentimentUtils{
 
   val englishSentiment = List("excellent", "good", "neutral", "bad", "terrible")
@@ -77,7 +76,7 @@ object SentimentUtils{
   def upperCaseHandler(text: String): String = {
     val upperCasePattern = new Regex("\\d*[A-ZÁÉÍÓÚÀÈÌÒÙÑÄÖÜ]{4,}\\d*")
 
-    upperCasePattern replaceAllIn(text, m => m.matched.toLowerCase)
+    upperCasePattern replaceAllIn(text, m => m.matched.toLowerCase + "^")
   }
 
 

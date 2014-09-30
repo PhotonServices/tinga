@@ -1,7 +1,10 @@
 package tinga.nlp.texttools
 
-import scala.collection.mutable.MutableList
-import TextPreprocessor._
+import scala.collection.mutable.Buffer
+import TextPreprocessor.readFileToMap
+import TextPreprocessor.readFileToStringList
+import TextPreprocessor.currentDir
+
 
 class PoSTagger(lang: String) {
   def this() = {
@@ -73,7 +76,7 @@ class PoSTagger(lang: String) {
     exist
   }
 
-  def contextRules(taggedExpression: MutableList[(String, String)], cmd: String, i: Int, x: String, y: String): Boolean = {
+  def contextRules(taggedExpression: Buffer[(String, String)], cmd: String, i: Int, x: String, y: String): Boolean = {
     val tE = taggedExpression
     var exist = false
     if((cmd == "prevtag"        && x == tE(i-1)._2)                                               ||
@@ -133,9 +136,9 @@ class PoSTagger(lang: String) {
     (word, posTag)
   }
 
-  def contextTagger(taggedExpression: MutableList[(String, String)]): MutableList[(String, String)] = {
-    val start = MutableList.tabulate(3)(x =>("emptyWord", "emptyTag"))
-    val end   = MutableList.tabulate(3)(x =>("emptyWord", "emptyTag"))
+  def contextTagger(taggedExpression: Buffer[(String, String)]): Buffer[(String, String)] = {
+    val start = Buffer.tabulate(3)(x =>("emptyWord", "emptyTag"))
+    val end   = Buffer.tabulate(3)(x =>("emptyWord", "emptyTag"))
     val expression = start ++ taggedExpression ++ end
     for(i <- 3 until expression.length-3){
       for(rule <- _context){
@@ -168,7 +171,7 @@ class PoSTagger(lang: String) {
     taggedWord
   }
 
-  def tagExpression(expression: MutableList[String]): MutableList[(String, String)] = {
+  def tagExpression(expression: Buffer[String]): Buffer[(String, String)] = {
     val taggedExpression = expression.zipWithIndex map { case (v,i) => { var taggedWord = tagWord(v);
                                                                              taggedWord = morphologyTagger(taggedWord._1, taggedWord._2,
                                                                                                           if(i > 0) expression(i-1) else "",

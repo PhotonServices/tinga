@@ -59963,6 +59963,7 @@ impresionadas VBN
 impresionado VBN
 impresionados VBN
 impresionante JJ
+impresionantemente RB
 impresionantes JJ
 impresionar VB
 impresiones NNS
@@ -61756,6 +61757,8 @@ inusitado JJ
 inusitados JJ
 inusual JJ
 inusuales JJ
+inútil JJ
+inutil JJ
 inutilidad NN
 inutiliza VB
 inutilizada VBN
