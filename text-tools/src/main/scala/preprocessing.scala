@@ -91,7 +91,10 @@ object TextPreprocessor{
     println(SentimentUtils.emoticonsIdentifier("it")(":( La comida  x-p XP me :)) parece bien :)"))
     println(SentimentUtils.repeatedCharsHandler("es")(":( La comida  x-p XP me !!! parece bieeeeeen :)"))
     println(SentimentUtils.upperCaseHandler("BIEN MAL HORRIBLE"))
+    println(Tokenizer.splitToSentences("La vida es una canción. Esta es otra oración? No esta es otra oración!"))
+    val p = Tokenizer.tokenize("Me gusta pero no la compraría por 3000 pesos! La vida es una canción... Esta es otra oración? No esta es otra oración! ", "es")
+    println(p)
+    p foreach (s => println(s))
   }
-
 
 }
