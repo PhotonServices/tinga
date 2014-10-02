@@ -93,7 +93,7 @@ object TextPreprocessor{
     println(SentimentUtils.upperCaseHandler("BIEN MAL HORRIBLE"))
     println(Tokenizer.splitToSentences("La vida es una canción. Esta es otra oración? No esta es otra oración!"))
     val p = Tokenizer.tokenize("Me gusta pero no la compraría por 3000 pesos! La vida es una canción... Esta es otra oración? No esta es otra oración! ", "es")
-    println(p)
+    println(p.str)
     p foreach (s => println(s))
   }
 
