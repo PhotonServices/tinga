@@ -1,8 +1,9 @@
 package tinga.nlp.texttools
 
 import scala.collection.mutable.Buffer
-import PoSTagger._
 import scala.util.matching.Regex
+import TextPreprocessor._
+import PoSTagger._
 
 
 class WordToken(word: String, tag: String, lemma: String){
@@ -123,7 +124,8 @@ object Tokenizer{
   def splitToWords(text: String): Buffer[String] = text.split("""( )+""").filter(x => x != "").toBuffer
 
   def tokenize(text: String, lang: String = "en"): Paragraph = {
+    val prep   = preprocess(lang)((_: String), true, List('.', '?', '!'))
     val tagger = PoSTagger(lang)
-    Paragraph(splitToSentences(text).map(s => SentenceToken(tagger.tagExpression(splitToWords(s._1)).toList.map(w => WordToken(w._1, w._2)), s._2)))
+    Paragraph(splitToSentences(prep(text)).map(s => SentenceToken(tagger.tagExpression(splitToWords(s._1)).toList.map(w => WordToken(w._1, w._2)), s._2)))
   }
 }

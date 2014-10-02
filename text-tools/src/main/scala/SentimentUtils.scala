@@ -76,5 +76,16 @@ object SentimentUtils{
     upperCasePattern replaceAllIn(text, m => m.matched.toLowerCase + "^")
   }
 
+  def splitByCC(lang: String)(text: String): List[String] = lang match{
+    case "en" => splitByString(List("but", "still", "however", "yet", "nevertheless"), text)
+    case "es" => splitByString(List("pero", "sin embargo", "al contrario", "sino", "sino que"), text)
+    case "fr" => splitByString(List("mais", "toutefois", "cependant", "contrairement à"), text)
+    case "it" => splitByString(List("ma", "tuttavia", "a differenza di", "però"), text)
+    case "de" => splitByString(List("aber", "jedoc", "im Gegensatz zu", "sondern"), text)
+  }
 
+  def splitByString(strs: List[String], text: String): List[String] = {
+    val pattern =  new Regex("\\Q" + strs.mkString("\\E|\\Q") + "\\E")
+    pattern.split(text).toList
+  }
 }
