@@ -9,4 +9,3 @@ class HelloWorldSpec extends FunSpec {
     }
   }
 }
-

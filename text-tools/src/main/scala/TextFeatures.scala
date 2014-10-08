@@ -12,19 +12,26 @@ object FeatureExtractor{
     group(splitToWords(text).toList) map (x => x.mkString(" "))
   }
 
-  def skipgram(text: String, n: Int, k: Int): List[String] = {
+  def skipgrams(text: String, n: Int, k: Int): List[String] = {
     val m = splitToWords(text).zipWithIndex.groupBy(x => x._2%k)
-    m.mapValues(x => ngrams(x.unzip._1.mkString(" "), n)).toList.flatMap(t => t._2)
+    m.mapValues(x => ngrams(x.unzip._1.mkString(" "), n)).toList.flatMap(t => t._2) ::: ngrams(text, n)
   }
 
-  def vocabulary(l: List[Any]): Map[Any, Int] = l.groupBy(identity).mapValues(_.size)
+  def vocabulary(text: String): List[String] = splitToWords(text).toList
 
-  def topN(m: Map[Any, Int], n: Int): List[(Any, Int)] = {
+  def absoluteFreq(l: List[Any]): Map[Any, Double] = l.groupBy(identity).mapValues(_.size).mapValues(_.toDouble)
+
+  def relativeFreq(l: List[Any]): Map[Any, Double] = {
+    val m = absoluteFreq(l)
+    m.mapValues(x => x/m.foldLeft(0.0)(_+_._2))
+  }
+
+  def topN(m: Map[Any, Double], n: Int): List[(Any, Double)] = {
     val sorted = m.toList.sortBy(_._2)
     sorted.reverse.take(n)
   }
 
-  def bottomN(m: Map[Any, Int], n: Int): List[(Any, Int)] = {
+  def bottomN(m: Map[Any, Double], n: Int): List[(Any, Double)] = {
     val sorted = m.toList.sortBy(_._2)
     sorted.take(n)
   }

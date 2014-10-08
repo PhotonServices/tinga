@@ -36,7 +36,7 @@ class WordToken(word: String, tag: String, lemma: String){
 
   def relationTag_= (tag: String) = _relationTag = tag
 
-  override def toString() = this._str + "/" + this._posTag //+"/"+this._lemmata
+  override def toString() = this._str + "/" + this._posTag
 }
 
 object WordToken{
@@ -106,9 +106,9 @@ object Paragraph{
 object Tokenizer{
   def splitToSentences(text: String): List[(String, String)] = {
     def exceptionHandler(text: String): String = {
-      val notAbbrev = new Regex("\\S{4,} *\\.{1,3} *")
-      val t = notAbbrev.replaceAllIn(text.replace("...","¨"), m => m.matched replace(".", " ¨ "))
-      if(t(t.length -1) != '.' && t(t.length -1) != '!' && t(t.length -1) != '?') t + "¨" else t
+      val notAbbrev = new Regex("[A-Za-záéíóúàèìòùüñçäö]{4,} *\\.{1,} *")
+      val t = notAbbrev.replaceAllIn(text.replace("...", " . "), m => m.matched replace(".", "¨"))
+      if(t(t.length -1) != '¨' && t(t.length -1) != '!' && t(t.length -1) != '?') t + "¨" else t
     }
     def split(str: List[Char], acc: List[Char]): List[(String, String)] = str match {
       case head :: tail =>
@@ -121,11 +121,16 @@ object Tokenizer{
     split(exceptionHandler(text).toList, Nil)
   }
 
-  def splitToWords(text: String): Buffer[String] = text.split("""( )+""").filter(x => x != "").toBuffer
+  def splitToWords(text: String, lang: String = "en"): Buffer[String] = {
+    var t = text
+    val punctPattern = new Regex("\\Q" + punctuationChars.filter(c => c != '\'').mkString("\\E|\\Q") + "\\E")
+    if(lang == "en") t = text.replace("'", " '").replace("n 't", " n't")
+    else if(lang == "fr") t = text.replace("'", "' ")
+    punctPattern.replaceAllIn(t, m => " " + m.matched + " ").split("""( )+""").filter(x => x != "").toBuffer
+  }
 
-  def tokenize(text: String, lang: String = "en"): Paragraph = {
-    val prep   = preprocess(lang)((_: String), true, List('.', '?', '!'))
+  def tokenize(lang: String)(text: String): Paragraph = {
     val tagger = PoSTagger(lang)
-    Paragraph(splitToSentences(prep(text)).map(s => SentenceToken(tagger.tagExpression(splitToWords(s._1)).toList.map(w => WordToken(w._1, w._2)), s._2)))
+    Paragraph(splitToSentences(text).map(s => SentenceToken(tagger.tagExpression(splitToWords(s._1, lang)).toList.map(w => WordToken(w._1, w._2)), s._2)))
   }
 }

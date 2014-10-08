@@ -12,9 +12,9 @@ class PoSTagger(lang: String) {
     println("No language defined using english as default")
   }
 
-  private lazy val _lexicon    = readFileToMap(currentDir + f"pos-trained-corpus/$lang%s-lexicon.txt")
-  private lazy val _morphology = readFileToStringList(currentDir + f"pos-trained-corpus/$lang%s-morphology.txt")
-  private lazy val _context    = readFileToStringList(currentDir + f"pos-trained-corpus/$lang%s-context.txt")
+  private val _lexicon    = readFileToMap(currentDir + f"pos-trained-corpus/$lang%s-lexicon.txt")
+  private val _morphology = readFileToStringList(currentDir + f"pos-trained-corpus/$lang%s-morphology.txt")
+  private val _context    = readFileToStringList(currentDir + f"pos-trained-corpus/$lang%s-context.txt")
   private val _cmd = (
                       List("word",          // Word is x
                             "char",         // Word contain x

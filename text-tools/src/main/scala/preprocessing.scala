@@ -8,8 +8,8 @@ import scala.io.Source
 object TextPreprocessor{
 
   val punctuationChars = List('.',',',';',':','¡','!','¿','?','(',')','[',']','{','}','`',
-                              ''','\\','\'','@','#','$','^','&','*','+','-','|','=','_',
-                              '~','%')
+                              '\\','\'','@','#','$','^','&','*','+','-','|','=','_','~','%',
+                              '<','>','/', '"')
   val currentDir = getCurrentDirectory + "/src/main/resources/vocabularies/"
 
   def getCurrentDirectory = new java.io.File( "." ).getCanonicalPath
@@ -22,12 +22,12 @@ object TextPreprocessor{
     map
   }
 
-  def readFileToStringList(path: String): List[String] = {
-    Source.fromFile(path).getLines.toList
+  def readFileToStringList(path: String, encoding: String = "utf-8"): List[String] = {
+    Source.fromFile(path, encoding).getLines.toList
   }
 
-  def readFileToCharList(path: String): List[Char] = {
-    Source.fromFile(path).getLines.toList.flatMap(c => c.toCharArray)
+  def readFileToCharList(path: String, encoding: String = "utf-8"): List[Char] = {
+    Source.fromFile(path, encoding).getLines.toList.flatMap(c => c.toCharArray)
   }
 
   def langSpecificChars(lang: String): List[Char] = {
@@ -38,24 +38,31 @@ object TextPreprocessor{
     readFileToStringList(currentDir + f"stopwords/$lang%s-stopwords.txt")
   }
 
-  def preprocess(lang: String)(text: String, punctuation: Boolean = false,
-                    exceptPunct: List[Char] = List(), stopwords: Boolean = false,
-                    exceptStop: List[String] = List()): String = lang match {
-    case "en" => cleanText(punctuationChars, langStopwords("en"), punctuation,
-                           stopwords, List(), text, exceptPunct, exceptStop)
-    case "es" => cleanText(punctuationChars, langStopwords("es"), punctuation,
-                           stopwords, langSpecificChars("es"), text, exceptPunct, exceptStop)
-    case "fr" => cleanText(punctuationChars, langStopwords("fr"), punctuation,
-                           stopwords, langSpecificChars("fr"), text, exceptPunct, exceptStop)
-    case "it" => cleanText(punctuationChars, langStopwords("it"), punctuation,
-                           stopwords, langSpecificChars("it"), text, exceptPunct, exceptStop)
-    case "de" => cleanText(punctuationChars, langStopwords("de"), punctuation,
-                           stopwords, langSpecificChars("de"), text, exceptPunct, exceptStop)
+  def preprocess(lang: String)(text: String,
+                               punctuation: Boolean = false,
+                               exceptPunct: List[Char] = List(),
+                               stopwords: Boolean = false,
+                               exceptStop: List[String] = List()): String = lang match {
+    case "en" => cleanText(text, List(),
+                           punctuation, exceptPunct,
+                           stopwords, langStopwords("en"), exceptStop)
+    case "es" => cleanText(text, langSpecificChars("es"),
+                           punctuation, exceptPunct,
+                           stopwords, langStopwords("es"), exceptStop)
+    case "fr" => cleanText(text, langSpecificChars("fr"),
+                           punctuation, exceptPunct,
+                           stopwords, langStopwords("fr"), exceptStop)
+    case "it" => cleanText(text, langSpecificChars("it"),
+                           punctuation, exceptPunct,
+                           stopwords, langStopwords("it"), exceptStop)
+    case "de" => cleanText(text, langSpecificChars("de"),
+                           punctuation, exceptPunct,
+                           stopwords, langStopwords("de"), exceptStop)
   }
 
-  def cleanText(punctuationChars: List[Char], langStopwords: List[String],
-                punctuation: Boolean, stopwords: Boolean, langChars: List[Char],
-                text: String, exceptPunct: List[Char], exceptStop: List[String]): String = {
+  def cleanText(text: String, langChars: List[Char],
+                punctuation: Boolean, exceptPunct: List[Char],
+                stopwords: Boolean, langStopwords: List[String], exceptStop: List[String]): String = {
     if (punctuation && !stopwords) {
       text filter { (c: Char) => (isAllowedChar(c, langChars)) &&
                                  (!(punctuationChars contains c) ||
@@ -92,7 +99,7 @@ object TextPreprocessor{
     println(SentimentUtils.repeatedCharsHandler("es")(":( La comida  x-p XP me !!! parece bieeeeeen :)"))
     println(SentimentUtils.upperCaseHandler("BIEN MAL HORRIBLE"))
     println(Tokenizer.splitToSentences("La vida es una canción. Esta es otra oración? No esta es otra oración!"))
-    val p = Tokenizer.tokenize("Me gusta pero no la compraría por 3000 pesos! La vida es una canción... Esta es otra oración? No esta es otra oración! ", "es")
+    val p = Tokenizer.tokenize("es")("Me gusta pero no la compraría por 3000 pesos! La vida es una canción... Esta es otra oración? No esta es otra oración! ")
     println(p.str)
     p foreach (s => println(s))
   }

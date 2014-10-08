@@ -46023,7 +46023,7 @@ corrigió VB
 corrijas VB
 corriola JJ
 corrió VB
-corro NN
+corro VB
 corroboran VB
 corroborar VB
 corrompe VB
@@ -62354,7 +62354,6 @@ joyeuse VB
 joyos NNS
 jpg NN
 jsf NN
-juan JJ
 juanetes NNS
 jubatus NN
 jubeas NNS
