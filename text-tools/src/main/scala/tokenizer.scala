@@ -1,8 +1,9 @@
 package tinga.nlp.texttools
 
+import java.util.regex.Matcher
 import scala.collection.mutable.Buffer
 import scala.util.matching.Regex
-import TextPreprocessor._
+import TextPreprocessor.punctuationChars
 import PoSTagger._
 
 
@@ -103,34 +104,53 @@ object Paragraph{
   def apply(paragraph: List[SentenceToken]) = new Paragraph(paragraph)
 }
 
-object Tokenizer{
+class Tokenizer(lang: String){
+  private val _lang = lang
+  private val _tagger = PoSTagger(lang)
+  val abbrevReg1 = new Regex(" (\\w){1,3}\\.")
+  val abbrevReg2 = new Regex(" ((\\w){1}\\.)+")
+  val urlReg1 = new Regex("((https?)?(ftp)?(://))([A-Za-z0-9]){1,}\\.([A-Za-z0-9]){2,}(\\.\\S+)?(/\\S+)?")
+  val urlReg2 = new Regex("((https?)?(ftp)?(://))?([A-Za-z0-9]){2,}\\.([A-Za-z0-9]){2,}(\\.\\S+)?(/\\S+)")
+  val punctPattern = new Regex("\\Q" + punctuationChars.filter(c => c != '\'').mkString("\\E|\\Q") + "\\E")
+
   def splitToSentences(text: String): List[(String, String)] = {
     def exceptionHandler(text: String): String = {
-      val notAbbrev = new Regex("[A-Za-záéíóúàèìòùüñçäö]{4,} *\\.{1,} *")
-      val t = notAbbrev.replaceAllIn(text.replace("...", " . "), m => m.matched replace(".", "¨"))
-      if(t(t.length -1) != '¨' && t(t.length -1) != '!' && t(t.length -1) != '?') t + "¨" else t
+      val t = abbrevReg1.
+                replaceAllIn(abbrevReg2.
+                  replaceAllIn(urlReg1.
+                    replaceAllIn(urlReg2.
+                      replaceAllIn(text, m => Matcher.quoteReplacement(m.matched).replace(".", "¨")),
+                                         m => Matcher.quoteReplacement(m.matched).replace(".", "¨")),
+                                         m => Matcher.quoteReplacement(m.matched).replace(".", "")),
+                                         m => Matcher.quoteReplacement(m.matched).replace(".", "")).replace("...", ".")
+      if(t(t.length -1) != '.' && t(t.length -1) != '!' && t(t.length -1) != '?') t + "." else t
     }
+
     def split(str: List[Char], acc: List[Char]): List[(String, String)] = str match {
       case head :: tail =>
             if(head == '?') (acc.reverse.mkString + " ?", "interrogative") :: split(tail, Nil)
             else if(head == '!') (acc.reverse.mkString +" !", "exclamatory") :: split(tail, Nil)
-            else if(head == '¨') (acc.reverse.mkString + " .", "declarative") :: split(tail, Nil)
+            else if(head == '.') (acc.reverse.mkString + " .", "declarative") :: split(tail, Nil)
             else split(tail, head :: acc)
       case Nil => Nil
     }
-    split(exceptionHandler(text).toList, Nil)
+    split(exceptionHandler(text).toList, Nil) map (x => (x._1.replace("¨", "."), x._2))
   }
 
   def splitToWords(text: String, lang: String = "en"): Buffer[String] = {
-    var t = text
-    val punctPattern = new Regex("\\Q" + punctuationChars.filter(c => c != '\'').mkString("\\E|\\Q") + "\\E")
-    if(lang == "en") t = text.replace("'", " '").replace("n 't", " n't")
-    else if(lang == "fr") t = text.replace("'", "' ")
-    punctPattern.replaceAllIn(t, m => " " + m.matched + " ").split("""( )+""").filter(x => x != "").toBuffer
+    var t = text.split("( )+").toBuffer
+    if(lang == "en")
+      t = text.replace("'", " '").replace("n 't", " n't").split("( )+").toBuffer
+    else
+    if(lang == "fr")
+      t = text.replace("'", "' ").split("( )+").toBuffer
+    t.map(w => if(urlReg1.findAllIn(w).isEmpty && urlReg2.findAllIn(w).isEmpty)
+                  punctPattern.replaceAllIn(w, m => " " + Matcher.quoteReplacement(m.matched) + " ")
+               else w).
+          flatMap(w => w.split("( )+")).filter(w => w != "")
   }
 
-  def tokenize(lang: String)(text: String): Paragraph = {
-    val tagger = PoSTagger(lang)
-    Paragraph(splitToSentences(text).map(s => SentenceToken(tagger.tagExpression(splitToWords(s._1, lang)).toList.map(w => WordToken(w._1, w._2)), s._2)))
+  def tokenize(text: String): Paragraph = {
+    Paragraph(splitToSentences(text).map(s => SentenceToken(_tagger.tagExpression(splitToWords(s._1, _lang)).toList.map(w => WordToken(w._1, w._2)), s._2)))
   }
 }

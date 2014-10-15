@@ -10,7 +10,7 @@ object TextPreprocessor{
   val punctuationChars = List('.',',',';',':','¡','!','¿','?','(',')','[',']','{','}','`',
                               '\\','\'','@','#','$','^','&','*','+','-','|','=','_','~','%',
                               '<','>','/', '"')
-  val currentDir = getCurrentDirectory + "/src/main/resources/vocabularies/"
+  val lexiconDir= getCurrentDirectory + "/src/main/resources/lexicon/"
 
   def getCurrentDirectory = new java.io.File( "." ).getCanonicalPath
 
@@ -31,11 +31,11 @@ object TextPreprocessor{
   }
 
   def langSpecificChars(lang: String): List[Char] = {
-    readFileToCharList(currentDir + f"special-characters/$lang%s-characters.txt")
+    readFileToCharList(lexiconDir + f"special-characters/$lang%s-characters.txt")
   }
 
   def langStopwords(lang: String): List[String] = {
-    readFileToStringList(currentDir + f"stopwords/$lang%s-stopwords.txt")
+    readFileToStringList(lexiconDir + f"stopwords/$lang%s-stopwords.txt")
   }
 
   def preprocess(lang: String)(text: String,
@@ -98,10 +98,6 @@ object TextPreprocessor{
     println(SentimentUtils.emoticonsIdentifier("it")(":( La comida  x-p XP me :)) parece bien :)"))
     println(SentimentUtils.repeatedCharsHandler("es")(":( La comida  x-p XP me !!! parece bieeeeeen :)"))
     println(SentimentUtils.upperCaseHandler("BIEN MAL HORRIBLE"))
-    println(Tokenizer.splitToSentences("La vida es una canción. Esta es otra oración? No esta es otra oración!"))
-    val p = Tokenizer.tokenize("es")("Me gusta pero no la compraría por 3000 pesos! La vida es una canción... Esta es otra oración? No esta es otra oración! ")
-    println(p.str)
-    p foreach (s => println(s))
   }
 
 }

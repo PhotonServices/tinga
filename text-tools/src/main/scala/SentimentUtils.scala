@@ -1,40 +1,47 @@
 package tinga.nlp.texttools
 
+import java.util.regex.Matcher
 import scala.util.matching.Regex
-
+import TextPreprocessor.readFileToStringList
+import TextPreprocessor.lexiconDir
+import TextPreprocessor.preprocess
 
 object SentimentUtils{
 
-  val englishSentiment = List("excellent", "good", "neutral", "bad", "terrible")
-  val spanishSentiment = List("excelente", "bueno", "neutral", "malo", "terrible")
-  val frenchSentiment  = List("excellent", "bon", "neutre", "mauvais", "terrible")
-  val italianSentiment = List("eccellente", "buono", "neutro", "male", "terribile")
-  val germanSentiment  = List("ausgezeichnet", "gut", "neutral", "schlecht", "schrecklich")
+  val englishSentiment = List(" excellent ", " good ", " neutral ", " bad ", " terrible ", " very much ")
+  val spanishSentiment = List(" excelente ", " bueno ", " neutral ", " malo ", " terrible ", " muy ")
+  val frenchSentiment  = List(" excellent ", " bon ", " neutre ", " mauvais ", " terrible ", " très ")
+  val italianSentiment = List(" eccellente ", " buono ", " neutro ", " male ", " terribile ", " molto ")
+  val germanSentiment  = List(" ausgezeichnet ", " gut ", " neutral ", " schlecht ", " schrecklich ", " sehr ")
 
-  val loveEmoticons  = List("<3", "♥", "(})", "({)", ">:D<", ">:d<", ":*", ":-*", ":-^", ";-^", "X-^", ";;)")
-  val grinEmoticons  = List(">:D", ":-D", ":D", "=-D", "=D", "X-D", "x-D", "XD", "xD", "8-D", ":))", ":-))",
-                           ":>", ":->", "LOL", "(lol)", "(LOL)", ":d", ":-d", ":'D", ":'-D")
-  val smileEmoticons = List(">:)", ":-)", ":)", "=)", "=]", ":]", ":}", ":>", ":3", "8)", "8-)", "n.n")
-  val winkEmoticons  = List(">;]", ";-)", ";)", ";-]", ";]", ";D", ";^)", "*-)", "*)")
-  val tauntEmoticons = List(">:P", ":-P", ":P", ":-p", ":p", ":-b", ":b", ":c)", ":o)", ":^)")
-  val gaspEmoticons  = List(">:o", ":-O", ":O", ":o", ":-o", "o_O", "o.O", "°O°", "°o°", "o.o")
-  val worryEmoticons = List(">:/",  ":-/", ":/", ":\\", ">:\\", ":-.", ":-s", ":s", ":S", ":-S", ">.>")
-  val sadEmoticons   = List(">:[", ":-(", ":(", "=(", ":-[", ":[", ":{", ":-<", ":c", ":-c", "=/", "u.u", "7.7")
-  val cryEmoticons   = List(":'(", ":'''(", ";'(", ":((", ":-((", ":<")
-  val angryEmoticons = List(">-[", ">-(", "8o|", "X-(", "x-(", "X(", ":@", ":-@")
-  val sickEmoticons  = List("(:|", ":~)", "x-s", "X-S", "X-P", "x-p", ":-&", "+o(", "[-(")
+  val loveEmoticons   = readFileToStringList(lexiconDir + "emoji-emoticons/love.txt")
+  val grinEmoticons   = readFileToStringList(lexiconDir + "emoji-emoticons/grin.txt")
+  val smileEmoticons  = readFileToStringList(lexiconDir + "emoji-emoticons/smile.txt")
+  val winkEmoticons   = readFileToStringList(lexiconDir + "emoji-emoticons/wink.txt")
+  val tauntEmoticons  = readFileToStringList(lexiconDir + "emoji-emoticons/taunt.txt")
+  val gaspEmoticons   = readFileToStringList(lexiconDir + "emoji-emoticons/gasp.txt")
+  val worryEmoticons  = readFileToStringList(lexiconDir + "emoji-emoticons/worry.txt")
+  val sadEmoticons    = readFileToStringList(lexiconDir + "emoji-emoticons/sad.txt")
+  val cryEmoticons    = readFileToStringList(lexiconDir + "emoji-emoticons/cry.txt")
+  val angryEmoticons  = readFileToStringList(lexiconDir + "emoji-emoticons/angry.txt")
+  val sickEmoticons   = readFileToStringList(lexiconDir + "emoji-emoticons/sick.txt")
+  val posEmoticons    = readFileToStringList(lexiconDir + "emoji-emoticons/good.txt")
+  val negEmoticons    = readFileToStringList(lexiconDir + "emoji-emoticons/bad.txt")
+  val neutroEmoticons = readFileToStringList(lexiconDir + "emoji-emoticons/neutro.txt")
 
   val excellentEmoticons = loveEmoticons ++ grinEmoticons mkString("\\E|\\Q")
-  val goodEmoticons      = smileEmoticons ++ winkEmoticons mkString("\\E|\\Q")
-  val neutralEmoticons   = tauntEmoticons ++ gaspEmoticons mkString("\\E|\\Q")
-  val badEmoticons       = worryEmoticons ++ sadEmoticons ++ sickEmoticons mkString("\\E|\\Q")
+  val goodEmoticons      = smileEmoticons ++ winkEmoticons ++ posEmoticons mkString("\\E|\\Q")
+  val neutralEmoticons   = neutroEmoticons mkString("\\E|\\Q")
+  val badEmoticons       = worryEmoticons ++ sadEmoticons ++ sickEmoticons ++ negEmoticons mkString("\\E|\\Q")
   val terribleEmoticons  = cryEmoticons ++ angryEmoticons  mkString("\\E|\\Q")
+  val contextEmoticons   = tauntEmoticons ++ gaspEmoticons mkString("\\E|\\Q")
 
   val excellentPattern = new Regex("\\Q" + excellentEmoticons + "\\E")
   val goodPattern      = new Regex("\\Q" + goodEmoticons + "\\E")
   val neutralPattern   = new Regex("\\Q" + neutralEmoticons + "\\E")
   val badPattern       = new Regex("\\Q" + badEmoticons + "\\E")
   val terriblePattern  = new Regex("\\Q" + terribleEmoticons + "\\E")
+  val contextPattern   = new Regex("\\Q" + contextEmoticons + "\\E")
 
   def emoticonsIdentifier(lang: String)(text: String): String = lang match {
     case "en" => emoticonsReplacer(englishSentiment, text)
@@ -49,7 +56,8 @@ object SentimentUtils{
     textStr = goodPattern replaceAllIn(textStr, langSentiment(1))
     textStr = neutralPattern replaceAllIn(textStr, langSentiment(2))
     textStr = badPattern replaceAllIn(textStr, langSentiment(3))
-    terriblePattern replaceAllIn(textStr, langSentiment(4))
+    textStr = terriblePattern replaceAllIn(textStr, langSentiment(4))
+    contextPattern replaceAllIn(textStr, langSentiment(5))
   }
 
   def repeatedCharsHandler(lang: String)(text: String): String = lang match{
@@ -64,28 +72,36 @@ object SentimentUtils{
     val str = allowedDoubleChars.mkString
     val singlePattern = new Regex(f"([^$str%s\\s])\\1{1,}")
     val doublePattern = new Regex(f"([$str%s])\\1{2,}")
-
-    doublePattern replaceAllIn(singlePattern replaceAllIn(text,
-                                                          m => m.matched.substring(0,1) + "^"),
-                                                          m => m.matched.substring(0,2) + "^")
+    val t = doublePattern replaceAllIn(singlePattern replaceAllIn(text,
+                                                                  m => Matcher.quoteReplacement(m.matched).substring(0,1) + "^"),
+                                                                  m => Matcher.quoteReplacement(m.matched).substring(0,2) + "^")
+    t.split("( )+") map(w => if(w contains "^") "^" + w.replace("^","") else w) mkString(" ")
   }
 
   def upperCaseHandler(text: String): String = {
     val upperCasePattern = new Regex("\\d*[A-ZÁÉÍÓÚÀÈÌÒÙÑÄÖÜ]{4,}\\d*")
-
-    upperCasePattern replaceAllIn(text, m => m.matched.toLowerCase + "^")
+    upperCasePattern replaceAllIn(text, m => Matcher.quoteReplacement(m.matched).toLowerCase + "^")
   }
 
-  def replaceAC(lang: String)(text: String): String = lang match{
-    case "en" => replaceString(List("but", "still", "however", "yet", "nevertheless"), text)
-    case "es" => replaceString(List("pero", "sin embargo", "al contrario", "sino", "sino que"), text)
-    case "fr" => replaceString(List("mais", "toutefois", "cependant", "contrairement à"), text)
-    case "it" => replaceString(List("ma", "tuttavia", "a differenza di", "però"), text)
-    case "de" => replaceString(List("aber", "jedoc", "im Gegensatz zu", "sondern"), text)
+  def replaceAdversativeConjunctions(lang: String)(text: String): String = lang match{
+    case "en" => replaceString(List("but", "still", "however", "yet", "nevertheless"), text, " . ")
+    case "es" => replaceString(List("pero", "sin embargo", "al contrario", "sino", "sino que"), text, " . ")
+    case "fr" => replaceString(List("mais", "toutefois", "cependant", "contrairement à"), text, " . " )
+    case "it" => replaceString(List("ma", "tuttavia", "a differenza di", "però"), text, " . ")
+    case "de" => replaceString(List("aber", "jedoc", "im Gegensatz zu", "sondern"), text, " . ")
   }
 
-  def replaceString(strs: List[String], text: String): String = {
+  def replaceString(strs: List[String], text: String, replacement: String): String = {
     val pattern =  new Regex("\\Q " + strs.mkString(" \\E|\\Q ") + " \\E")
-    pattern.replaceAllIn(text, " . ")
+    pattern.replaceAllIn(text, replacement)
+  }
+
+  def sentimentPreprocess(lang: String = "en")(text: String): String = {
+    val findEmoticons = emoticonsIdentifier(lang)(_)
+    val preprocessText = preprocess(lang)((_:String))
+    val repeatedChars = repeatedCharsHandler(lang)(_)
+    val findUpperCase = upperCaseHandler(_)
+    val replaceAC= replaceAdversativeConjunctions(lang)(_)
+    replaceAC(findUpperCase(repeatedChars(preprocessText(findEmoticons(text)))))
   }
 }

@@ -3,7 +3,7 @@ package tinga.nlp.texttools
 import scala.collection.mutable.Buffer
 import TextPreprocessor.readFileToMap
 import TextPreprocessor.readFileToStringList
-import TextPreprocessor.currentDir
+import TextPreprocessor.lexiconDir
 
 
 class PoSTagger(lang: String) {
@@ -12,9 +12,10 @@ class PoSTagger(lang: String) {
     println("No language defined using english as default")
   }
 
-  private val _lexicon    = readFileToMap(currentDir + f"pos-trained-corpus/$lang%s-lexicon.txt")
-  private val _morphology = readFileToStringList(currentDir + f"pos-trained-corpus/$lang%s-morphology.txt")
-  private val _context    = readFileToStringList(currentDir + f"pos-trained-corpus/$lang%s-context.txt")
+  private val _lang       = lang
+  private val _lexicon    = readFileToMap(lexiconDir + f"pos-trained-corpus/$lang%s-lexicon.txt")
+  private val _morphology = readFileToStringList(lexiconDir + f"pos-trained-corpus/$lang%s-morphology.txt")
+  private val _context    = readFileToStringList(lexiconDir + f"pos-trained-corpus/$lang%s-context.txt")
   private val _cmd = (
                       List("word",          // Word is x
                             "char",         // Word contain x
@@ -57,7 +58,7 @@ class PoSTagger(lang: String) {
                         ))
 
   def tagsetTransform(tag: String, from: String = "penntreebank", to: String = "universal"): String = {
-    val mapping = readFileToMap(currentDir + f"tagsets/$from%s-$to%s.txt")
+    val mapping = readFileToMap(lexiconDir+ f"tagsets/$from%s-$to%s.txt")
     mapping.getOrElse(tag, "")
   }
 
@@ -156,7 +157,7 @@ class PoSTagger(lang: String) {
   def tagWord(word: String): (String, String) = {
     var taggedWord = lexiconTagger(word)
     if(taggedWord._2 == ""){
-      if(Character.isUpperCase(taggedWord._1(0))){
+      if(Character.isUpperCase(taggedWord._1(0)) && _lang != "de"){
         taggedWord = (taggedWord._1, "NNP")
       }
       else{
