@@ -1,0 +1,7 @@
+Log of changes to corpus and rules
+
+filename /|/ line /|/ modification
+
+es-context.txt /|/ 108 /|/ NN IN SURROUNDTAG IN IN (erased rule)
+es-context.txt /|/ 1 /|/ IN NN PREVTAG NN (erased rule)
+es-context.txt /|/ 213 /|/ DT RB SURROUNDTAG VB JJ (erased rule)
