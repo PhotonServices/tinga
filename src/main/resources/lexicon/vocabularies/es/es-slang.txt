@@ -9,6 +9,14 @@ culeras -1
 culerísimo -1
 fregón 1
 fregonsísimo 2
+jodido -1
+jodida -1
+jodidos -1
+jodidas -2
+padrísimo 2
+padrísima 2
+padrísimos 2
+padrísimas 2
 pedo -1
 pendejo -1
 pendeja -1

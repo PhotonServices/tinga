@@ -99,6 +99,14 @@ barato 1
 barata 1
 baratos 1
 baratas 1
+bello 2
+bella 2
+bellos 2
+bellos 2
+bellísimo 2
+bellísima 2
+bellísimos 2
+bellísimas 2
 brillante 1
 brillantes 1
 bueno 1
