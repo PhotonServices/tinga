@@ -1,6 +1,7 @@
 asco -2
 basura -1
 corrupción -2
+decepción -1
 desastre -2
 enemigo -1
 enemiga -1

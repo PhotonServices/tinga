@@ -109,6 +109,10 @@ bellísimos 2
 bellísimas 2
 brillante 1
 brillantes 1
+bonito 1
+bonita 1
+bonitos 1
+bonitas 1
 bueno 1
 buena 1
 buenos 1

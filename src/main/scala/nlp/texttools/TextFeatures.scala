@@ -4,7 +4,7 @@
 
 package tinga.nlp.texttools
 
-object FeatureExtractor{
+object TextFeatures{
   def ngrams(text: String, n: Int = 1): List[String] = {
     def group(splittedText: List[String]): List[List[String]] = splittedText match{
       case(head :: tail) if(splittedText.length >= n) => splittedText.take(n) :: group(tail)

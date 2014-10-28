@@ -8,4 +8,5 @@ estupendo 1
 felicitación 1
 maravilla 1
 solución 1
+suerte 1
 victoria 1
