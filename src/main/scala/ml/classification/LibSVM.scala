@@ -48,6 +48,21 @@ class LibSVM( )
   def extractVectorClass(x: Buffer[(Int, Map[String, Double])]): List[Int] =
      (for(i <- x) yield i._1).toList
 
+  /*Function that computes the fraction or the number of correct predictions (Test phase)
+   * In:    Buffer[(Int, Int)] with the desire value as first element and prediction as second element
+            in tuple
+   * Out:   Double (model presicion) */
+
+  def accuracy(values:Buffer[(Int, Int)]): String = {
+     val sizeResults:Int = values.length
+     if (sizeResults>0){
+        var correctResults:Int= 0
+        for (y <- values) { if(y._1==y._2) {correctResults=correctResults+1}}
+        val result:Double=correctResults.toFloat/sizeResults
+        return result*100+"%"
+      }
+      return "0%"
+     }
   /*
    * Function that creates the model from the training vectors
    *
@@ -217,5 +232,40 @@ class LibSVM( )
       predictionList += Prediction.toInt
     }
     return predictionList.toList
+  }
+
+    /*Function that test vectors with the desire value (set of vectors)
+  * In:
+  *      Buffer[(Int,Map[String,Double])]
+  *      model:    model created in the training phase
+  *      numberClasses: number of different classes in the training phase
+  * Out: String (test accuracy) */
+
+  def testVectorsGoldStandard(testVector: Buffer[(Int,Map[String,Double])],model: svm_model, numberClasses: Int): String = {
+    val listsTest=extractVectorsTuple(testVector)
+    val featureClasses =extractVectorClass(testVector)
+    val accuracyList = Buffer[(Int,Int)]()
+    var numberElements:Int=0
+    for(listTest <- listsTest)
+    {
+      val listLength= listTest.length
+      val nodes= new Array[svm_node](listLength)
+      for( i <- 1 to listLength)
+      {
+        val node= new svm_node()
+        node.index = i;
+        node.value = listTest(i-1)
+        nodes(i-1) = node
+      }
+      val labels= new Array[Int](numberClasses)
+      svm.svm_get_labels(model,labels);
+      val prob_estimates= new Array[Double](numberClasses)
+      val Prediction: Double= svm.svm_predict_probability(model, nodes, prob_estimates)
+      println("valor deseado "+featureClasses(numberElements)+" prediccion "+Prediction.toInt)
+      val tupleResult=(featureClasses(numberElements),Prediction.toInt)
+      accuracyList += tupleResult
+      numberElements=numberElements+1
+   }
+  return accuracy(accuracyList)
   }
 }//end class
