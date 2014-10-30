@@ -109,4 +109,9 @@ object TextPreprocessor{
 
   def isAllowedChar(c: Char, chars: List[Char]) = c <= '~' || chars.contains(c)
 
+  def removeDiacritics(str: String): String = {
+    val diacriticChars = "ÀàÈèÌìÒòÙùÁáÉéÍíÓóÚúÝýÂâÊêÎîÔôÛûŶŷÃãÕõÑñÄäËëÏïÖöÜüŸÿÅåÇçŐőŰű".toCharArray
+    val asciiChars     = "AaEeIiOoUuAaEeIiOoUuYyAaEeIiOoUuYyAaOoNnAaEeIiOoUuYyAaCcOoUu".toCharArray
+    str map (c => if(diacriticChars contains c) asciiChars(diacriticChars.indexOf(c)) else c)
+  }
 }

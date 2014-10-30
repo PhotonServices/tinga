@@ -151,10 +151,6 @@ comodos 1
 comodas 1
 competente 2
 competentes 2
-completo 1
-completa 1
-completos 1
-completas 1
 comprensible 2
 comprensibles 2
 conmovedor 1

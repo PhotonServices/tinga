@@ -2,6 +2,7 @@ bastante 2
 bastantes 2
 completamente 2
 considerablemente 2
+definitivamente 2
 infinitamente 2
 más 2
 menos 0.5
@@ -18,10 +19,12 @@ realmente 1.5
 quizá 0.5
 quizás 0.5
 sólo 0.5
+realmente 2
 solamente 0.5
 sinceramente 1.5
 únicamente 0.5
 super 2
 tan 2
+todo 2
 totalmente 2
 verdaderamente 2

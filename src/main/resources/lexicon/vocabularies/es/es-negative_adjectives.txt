@@ -308,6 +308,8 @@ impacientes -1
 impasible -1
 impensable -1
 impensables -1
+imperdonable -2
+imperdonables -2
 imposible -1
 imposibles -1
 impotente -2
@@ -440,9 +442,6 @@ negativo -1
 negativa -1
 negativos -1
 negativas -1
-ningún -1
-ninguno -1
-ninguna -1
 nostálgico -1
 nostálgica -1
 nostálgicos -1

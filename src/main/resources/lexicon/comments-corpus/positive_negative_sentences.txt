@@ -670,8 +670,8 @@ com.dropbox.android.json/|/Muy buena  Excelente app asi mantengo seguro fotos y 
 com.dropbox.android.json/|/Siempre util  Muy buena aplicación para almacenar fotos, vídeos, etc. /|/positivo
 com.dropbox.android.json/|/Excelente aplicación  Sería mejor si diesen más espacio para almacenar. Del resto excelente aplicación. /|/positivo
 com.dropbox.android.json/|/Exelente  Muy buena aplicacion hace años me la recomendaron y no ha fallado nunca /|/positivo
-com.dropbox.android.json/|/Perfecto  Siempre he sido fiel a dropbox desde que era una beta. /|/positivo
-com.dropbox.android.json/|/Sin problemas  Ojalá haya un cambio en la interfaz sin que afecte el rendimiento, excelente dropbox /|/positivo
+com.dropbox.android.json/|/Perfecto.  Siempre he sido fiel a dropbox desde que era una beta. /|/positivo
+com.dropbox.android.json/|/Sin problemas.  Ojalá haya un cambio en la interfaz sin que afecte el rendimiento, excelente dropbox /|/positivo
 com.dropbox.android.json/|/Muy buena  No te la puedes perder , esta genial .pasas videos fotos de todo /|/positivo
 com.dropbox.android.json/|/Exelente  Es tener tu pc en donde sea.. exelente! /|/positivo
 com.dropbox.android.json/|/Un gran invento  Una gran herramienta para trabajar en grupo /|/positivo

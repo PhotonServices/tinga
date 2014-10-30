@@ -1,6 +1,8 @@
 asco -2
 basura -1
 corrupción -2
+crimen -1
+crímenes -1
 decepción -1
 desastre -2
 enemigo -1
@@ -21,4 +23,5 @@ pena -1
 problema -1
 problemas -1
 reclamo -1
+vergüenza -1
 violencia -1

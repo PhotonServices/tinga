@@ -9,6 +9,7 @@ excesivamente -1
 forzadamente -1
 forzosamente -1
 horriblemente -2
+horrorosamente -2
 incorrectamente -1
 inesperadamente -1
 inútilmente -1
@@ -17,3 +18,4 @@ lejos -1
 mal -1
 negativamente -1
 peligrosamente -1
+terriblemente -2

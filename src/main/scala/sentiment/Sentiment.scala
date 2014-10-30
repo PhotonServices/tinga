@@ -8,9 +8,6 @@ import tinga.nlp.texttools.TextPreprocessor._
 import tinga.nlp.texttools.SentimentTagger
 import tinga.nlp.texttools.SentimentUtils._
 import tinga.nlp.texttools.Tokenizer
-import tinga.nlp.texttools.WordToken
-import tinga.nlp.texttools.SentenceToken
-import tinga.nlp.texttools.Paragraph
 import tinga.nlp.texttools.SpellChecker
 import scala.util.matching.Regex
 import scala.collection.mutable.Buffer
@@ -25,23 +22,45 @@ class Sentiment(lang: String){
   val sentiPrep = sentimentPreprocess(_lang)(_)
   val responses = List("No sentiment detected", "More context is needed", "Sentiment")
 
-  def isOrdinary(str: String) = str.forall(ordinary.contains(_))
+  def isUnaccented(str: String) = str.forall(ordinary.contains(_))
 
-  def spellCheck(word: String) = if(isOrdinary(word.trim)) corrector.correct(word.toLowerCase)
-                                 else word.toLowerCase
+  def normalizeScore(score: Double): Double = {
+    var s = score
+    if(score < -2.0) s = -2.0
+    if(score > 2.0) s = 2.0
+    s
+  }
+
+  def spellCheck(word: String, accented: Boolean = true): String = {
+    var str = word.toLowerCase
+    if(accented)
+      if(isUnaccented(word.trim)) corrector.correct(str)
+      else str
+    else
+      removeDiacritics(str)
+  }
 
   def sentimentGroups(sentimentSentence: Buffer[(String, Double)]): Buffer[Buffer[(String, Double)]] = {
+    val doubleNegationLangs = List("es", "fr")
+    var denierFlag = false
     var i, j = 0
     var l = Buffer[Int]()
     for(element <- sentimentSentence){
       if(element._1 == "-") i = i+1
       else{
-        if(i>2){
+        if(i > 2){
           l = l:+ j
-          i = 0
+          denierFlag = false
         }
-        j = j+1;
+        else{
+          if(element._1 == "nRB" && !denierFlag){
+            l = l:+ j
+            if(doubleNegationLangs contains _lang) denierFlag = true
+          }
+        }
+        i = 0
       }
+      j = j+1
     }
     val buffer = Buffer[Buffer[(String, Double)]]()
     var start = 0
@@ -64,38 +83,36 @@ class Sentiment(lang: String){
     var sentiment = 0.0
     var doubleNeg = false
     var op = ""
-    for(group <- sentimentGroup){
-      if(den == true && (deniers contains group._1)) doubleNeg = true
-      if(adjectives contains group._1) adj = true
-      if(adverbs contains group._1) adv = true
-      if(nouns contains group._1) nn = true
-      if(verbs contains group._1) vb = true
-      if(deniers contains group._1) den = true
-      if(intensifiers contains group._1) int = true
+    for(tagPair <- sentimentGroup){
+      if(den == true && (deniers contains tagPair._1)) doubleNeg = true
+      if(adjectives contains tagPair._1) adj = true
+      if(adverbs contains tagPair._1) adv = true
+      if(nouns contains tagPair._1) nn = true
+      if(verbs contains tagPair._1) vb = true
+      if(deniers contains tagPair._1) den = true
+      if(intensifiers contains tagPair._1) int = true
     }
     if((adj && nn) || (adv && vb) || ((int || den) && (nn || vb || adj || adv))) op = "mult"
     else
-      if(nn || vb || adv) op = "sum"
-      else op = "context"
+      if(nn || vb || adv || adj) op = "sum"
+      else op = "context-dependent"
     if(sentimentGroup.length == 0) return (0.0, "no-sentiment")
     if(sentimentGroup.length == 1){
-      if(nn || vb )
+      if(nn || vb)
         return (0.5 * sentimentGroup(0)._2.toDouble, "sentiment")
       if(den || int)
-        return (0.0, "context")
+        return (0.0, "context-dependent")
       if(adj || adv)
         return (sentimentGroup(0)._2.toDouble, "sentiment")
     }
     else{
       if(op == "sum") sentiment  = sentimentGroup.foldLeft(0.0)(_+_._2)
       if(op == "mult") sentiment = sentimentGroup.foldLeft(1.0)(_*_._2)
-      if(op == "context") return (0.0, "context")
+      if(op == "context-dependent") return (0.0, "context-dependent")
 
-      if(doubleNeg) sentiment = scala.math.abs(sentiment) * -2
+      if(doubleNeg) sentiment = sentiment * -2
     }
-  if(sentiment > 2.0) sentiment = 2.0
-  if(sentiment < -2.0) sentiment = -2.0
-  (sentiment, "sentiment")
+  (normalizeScore(sentiment), "sentiment")
   }
 
   def scoreSentimentSentence(sentimentSentence: Buffer[(String, Double)]): (Double, String) = {
@@ -103,70 +120,48 @@ class Sentiment(lang: String){
     var before, current = (0.0, "")
     var score = 0.0
     var zeroFlag = ""
-    for(i <- 0 to groups.length-1){
-      current = scoreSentimentGroup(groups(i))
-      score = before._1 + current._1
-      zeroFlag = current._2
-    }
-    score = score / groups.length
-    (score, zeroFlag)
+    if(groups.length >= 1)
+      for(i <- 0 to groups.length-1){
+        current = scoreSentimentGroup(groups(i))
+        score = before._1 + current._1
+        before = (score, current._2)
+        zeroFlag = current._2
+      }
+    (normalizeScore(score), zeroFlag)
   }
 
-  //def scoreComment(sentimentSentences: Buffer[Buffer[(String, Int)]]): (Double, String)
+  def globalParagraphScore(sentencesScores: Buffer[(String, Double, String, Int)]): (String, Double, String, Int) = {
+    if(sentencesScores.length >= 1){
+      var score = 0.0
+      var str = ""
+      var int = 1
+      var contextDependent = false
+      var noSentiment = false
+      for(s <- sentencesScores){
+        str = str + s._1
+        score = score + s._2
+        int = scala.math.max(1, s._4)
+        if(s._3 == "context-dependent") contextDependent = true
+        if(s._3 == "no-sentiment") noSentiment = true
+      }
+      if(score == 0.0)
+        if(contextDependent) return (str, score, "context-dependent", int)
+        if(noSentiment) return(str, score, "no-sentiment", int)
 
-  def algebraicSentiment(text: String): Buffer[(String, Double, String, String)] = {
+      return (str, normalizeScore(score), "sentiment", int)
+    }
+    else
+      return ("",0.0,"",0)
+  }
+
+  def algebraicSentiment(text: String, spellChecking: Boolean = true): Buffer[(String, Double, String, Int)] = {
     val t = sentiPrep(text)
+    if(t == "") return Buffer(("",0.0,"no-sentiment",0))
     val sentences = tokenizer.splitToSentences(t)
-    val sentimentSentences = sentences.map(s => sentiTag.tagExpression(tokenizer.splitToWords(s._1).map(w => spellCheck(w))))
+    val sentimentSentences = sentences.map(s => sentiTag.tagExpression(tokenizer.splitToWords(s._1).map(w => spellCheck(w, spellChecking)), spellChecking))
     val scores = sentimentSentences.map(sS => scoreSentimentSentence(sS))
-    val intensity = sentences.map(s => if(s._1 contains "^") "intense" else "regular")
+    val intensity = sentences.map(s => if(s._1 contains "^") 2 else 1)
     sentences.zipWithIndex.map({ case (v,i) => (v._1, scores(i)._1, scores(i)._2, intensity(i))})
   }
 
-
-/*
-  def tokenize(text: String): Paragraph = {
-    val t = sentiPrep(text)
-    val sentences = tokenizer.splitToSentences(t)
-    Paragraph(sentences.
-      map(s => { val words = tokenizer.splitToWords(s._1);
-                  SentenceToken(words.toList.
-                    map(w => { val corrected = if(isOrdinary(w)) corrector.correct(w) else w;
-                               val word = WordToken(corrected, sentiTag.tagWord(corrected)._1);
-                               word.polarity = sentiTag.tagWord(corrected)._2;
-                               word
-                             }), s._2)
-                }))
-  }
-
-  def score(text: String): (Double, String) = {
-    val paragraph = tokenize(text)
-    for(sentence <- paragraph){
-      for(g <- groupTags(sentence)){
-
-      }
-
-    }
-
-    def groupTags(sentence: SentenceToken): List[SentenceToken] = {
-      var i = 0
-      val group1 = SentenceToken()
-      val group2 = SentenceToken()
-      for(word <- sentence){
-        if(word.posTag != "-"){
-          if(i<3){
-            group1.addWord(word)
-          }
-          else{
-            i = 0
-            if(group2.length == 1)
-              group2.addWord(word)
-          }
-        }
-        else i += 1
-      }
-      List(group1, group2)
-    }
-  }
-*/
 }
