@@ -1,0 +1,519 @@
+twitter.com/|/(rt @homerojsimps0n partido vendido arbitro vendido penal regalado  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/terrible
+twitter.com/|/( valen para puro pendejo los árbitros  .,0.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0), (sJJ,-1.0)))/|/terrible
+twitter.com/|/(holanda y la re concha de tu madre  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/terrible
+twitter.com/|/(^no ^roben sos ^cagon holanda te odio  .,1.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-NN,-2.0)))/|/terrible
+twitter.com/|/(rt @zaynrulz por qué chingados hay mexicanos que apoyan a holanda  ?,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,2.0)))/|/terrible
+twitter.com/|/(mierda mexico no ^mamen ^weis  .,0.0,context-dependent,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)))/|/terrible
+twitter.com/|/(no era penal pelado de puta igual aposté a que ganaba holanda  . Pero me da lástima méxico  .,-1.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)), ArrayBuffer((sJJ,-1.0)), ArrayBuffer((-NN,-1.0)))/|/neutro
+twitter.com/|/(rt @jonas5sos holanda vayan y chinguen a su madre  . bueno  . bueno  . bueno  . bueno  . bueno  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/terrible
+com.google.android.gm.json/|/( Se ha convertido de una maravilla en una autentica porquería  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+NN,1.0)))/|/terrible
+com.google.android.gm.json/|/( Espero que los chicos de ^Gogle lo solucionen  .,-0.5,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-VB,-1.0)))/|/neutro
+com.mercadolibre.json/|/( Copien la nueva ^ap de eBay y sería perfecta  .,1.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,1.0)))/|/neutro
+org.microemu.android.model.common.VTUserApplicationLINKMB.json/|/( una interfaz demasiado básica  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-RB,-1.0)))/|/neutro
+com.mobilenik.mobilebanking.individuos.json/|/( Muy buena ^ap  . Pero no funciona sale pantalla roja y se cierra todo  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+JJ,1.0)), ArrayBuffer((NEG,-1.0), (+VB,1.0)), ArrayBuffer((INT,2.0)))/|/neutro
+com.king.candycrushsaga.json/|/( Muy adictivo y entretenido  . Pero lo he actualizado y no me deja abrirlopor favor arreglarlo ^ya  !,2.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)), ArrayBuffer((+VB,1.0)), ArrayBuffer((NEG,-1.0)))/|/neutro
+org.microemu.android.model.common.VTUserApplicationLINKMB.json/|/( Me da el error B06 Alguien sabe como corregir mi problema  ?,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-NN,-1.0)), ArrayBuffer((-NN,-1.0)))/|/neutro
+com.google.android.googlequicksearchbox.2.json/|/( Es aburrido por que no tengo gemail  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-JJ,-1.0)), ArrayBuffer((NEG,-1.0)))/|/neutro
+com.mobisystems.editor.office_registered.json/|/( intenti abrirlo y solo dice error de comunicacion  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+com.king.candycrushsaga.json/|/( Ésta última actualización no me permite abrir el juego me pide cierre forzoso  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0), (+VB,1.0), (+VB,1.0)))/|/neutro
+com.google.android.googlequicksearchbox.1.json/|/( Soy de Honduras ^gogle now indica que no está disponible para mi región  ?,-1.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0), (+JJ,1.0)))/|/neutro
+com.google.android.googlequicksearchbox.1.json/|/( Muy bonitos los videos de ^gogle con su asistente funcionando en ingles  .,2.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer((+JJ,1.0)), ArrayBuffer((+VB,1.0)))/|/neutro
+com.google.android.googlequicksearchbox.1.json/|/( Lo unico que falta es que le habiliten el idioma  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-NN,-1.0)))/|/neutro
+com.google.android.googlequicksearchbox.1.json/|/( Para que actualisar esta aplicacion de porqueria ya no puedo ver imagenes y por distintos tamaños un 0 para esta porqueria  .,0.0,context-dependent,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)))/|/terrible
+com.google.android.gm.json/|/( Es un total fracaso  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/terrible
+org.microemu.android.model.common.VTUserApplicationLINKMB.json/|/( Con la actualización se ve mejor para escribiendo  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,2.0)))/|/neutro
+com.overflow.cinemark.activity.json/|/( Varios errores  . Pero buena la idea  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-NN,-1.0), (+JJ,1.0)))/|/neutro
+com.google.android.music.json/|/( Arreglen el problema y les pongo las 5 estrellas ya que por lo demás funciona bien  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-NN,-1.0)), ArrayBuffer((+NN,1.0)), ArrayBuffer((+VB,1.0), (+RB,1.0)))/|/neutro
+com.google.android.gm.json/|/( No se entiende nada estan mezclados los recibidos con los enviados nunca se si me han respondido o es el que envié yo me da bronca este programa  .,0.0,context-dependent,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)), ArrayBuffer((NEG,-1.0)))/|/terrible
+com.google.android.gm.json/|/( Lindos los colores  . Pero hay que tocar veinte botones solamente para borrar un mail  !,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((INT,0.5)))/|/neutro
+com.google.android.music.json/|/( no le doy menos valoracion xq no puedo  .,0.0,context-dependent,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0), (INT,0.5), (NEG,-1.0)))/|/terrible
+org.microemu.android.model.common.VTUserApplicationLINKMB.json/|/( Solucionen muy util  !,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((INT,2.0)))/|/neutro
+com.king.candycrushsaga.json/|/( Es imposible jugar agusto la ^ap se cierra todo el rato no conecta con ^facebok y para colmo cada vez q s cierra te quitan vidas  !,0.0,context-dependent,2)/|/ArrayBuffer(ArrayBuffer((-JJ,-1.0), (+VB,1.0)), ArrayBuffer((INT,2.0)), ArrayBuffer((NEG,-1.0)))/|/terrible
+org.microemu.android.model.common.VTUserApplicationLINKMB.json/|/( Sin que el sistema tire error  .,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-VB,-1.0), (-NN,-1.0)))/|/neutro
+com.king.candycrushsaga.json/|/(gracias cuando este listo  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+RB,1.0), (+JJ,1.0)))/|/neutro
+com.mercadolibre.json/|/( No puedo entrar a la aplicación mediante mi alias y contraseña me sale error  . Pero en la pc entro normal  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-NN,-1.0)))/|/neutro
+com.dropbox.android.json/|/( Es una mireda  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/terrible
+com.google.android.gm.json/|/( No es nada práctico no puedo acceder a mi bandeja de entrada aparecen mezclados mensajes de todas las carpetas no los puedes marcar como leídos y archivarlos no puedes acceder a tus carpetas  .,0.0,context-dependent,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0), (NEG,-1.0)), ArrayBuffer((NEG,-1.0)), ArrayBuffer((NEG,-1.0)))/|/terrible
+org.microemu.android.model.common.VTUserApplicationLINKMB.json/|/( estafadores^  !,0.0,no-sentiment,2)/|/ArrayBuffer(ArrayBuffer())/|/terrible
+com.google.android.gm.json/|/( hay un dicho que dice si algo funciona no lo arregles  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)), ArrayBuffer((NEG,-1.0)))/|/neutro
+com.google.android.music.json/|/( Que quiten que se active automáticamente en segundo plano  !,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/terrible
+ar.com.guiaoleo.activity.json/|/( No lo bajen  .,0.0,context-dependent,1)/|/ArrayBuffer(ArrayBuffer())/|/terrible
+com.mercadolibre.json/|/( El sitio es para vender y comprar y como vendedor no cuenta con opciones nisiquiera para poder publicar ni para ver los anuncios que ya Di de alta en la pc ni para ver mis ventas ni nada relacionado cero recomendable solo ocupa espacio inútilmente mejor entró desde el Navegador en vista clasica  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)), ArrayBuffer((NEG,-1.0)), ArrayBuffer((NEG,-1.0)), ArrayBuffer((NEG,-1.0)), ArrayBuffer((NEG,-1.0), (+JJ,1.0)), ArrayBuffer((-RB,-1.0), (+JJ,2.0)))/|/terrible
+com.mercadolibre.json/|/( ch@  ?,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/terrible
+com.mercadolibre.json/|/(@ madre  . excelente D  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/terrible
+com.google.android.googlequicksearchbox.2.json/|/( Esta aplicación no es horrible  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0), (-JJ,-2.0)))/|/neutro
+com.mercadolibre.json/|/( Sigan mejorando mas  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0)))/|/neutro
+com.google.android.music.json/|/( No me gusta que me impongan aplicaciones en mi móvil porque si  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0)))/|/neutro
+com.google.android.gm.json/|/( Quiero poder borrar correos fácilmente  .,1.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+RB,1.0)))/|/neutro
+com.google.android.gm.json/|/( Si pudiera le pondría menos diez  .,0.0,context-dependent,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((INT,0.5)))/|/terrible
+com.google.android.gm.json/|/( deberian dejar un boton ^deliminar mails mas a mano  .,-0.5,sentiment,2)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+com.google.android.googlequicksearchbox.1.json/|/( Entiendo que vayan implementando funciones y que empiecen por Estados Unidos siempre recogen primero la info de allí  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)))/|/neutro
+com.hoyts.json/|/( Es una mierda^ 1 xq cuando quiero ingresar para hacer mi cuenta no puedo la 2 no puedo reservar las entrada es una kaka  .,0.5,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)), ArrayBuffer((NEG,-1.0)), ArrayBuffer((NEG,-1.0)))/|/terrible
+com.king.candycrushsaga.json/|/( X lo tanto una sola Stars  !,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/terrible
+com.google.android.music.json/|/( Es de bajísima calidad borra mis listas de reproducción y no puede reproducir aleatoriamente un género completo  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,1.0)), ArrayBuffer((NEG,-1.0)))/|/terrible
+org.microemu.android.model.common.VTUserApplicationLINKMB.json/|/( Fuera ya de mi móvil  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/terrible
+com.google.android.googlequicksearchbox.1.json/|/( si se pudiera colocar 0 lo colocaria y no a la ^ap si no a ^gogle por que no puede ser que solo este disponible para las versiones mas altas siendo que 22 y 23 son las que aportan mas a android  .,0.5,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)), ArrayBuffer((NEG,-1.0)), ArrayBuffer((NEG,-1.0)), ArrayBuffer((+JJ,1.0)))/|/terrible
+com.google.android.googlequicksearchbox.1.json/|/( Cuando esté en español se ganará las 5 estrellas  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,2.0), (+NN,1.0)))/|/neutro
+org.microemu.android.model.common.VTUserApplicationLINKMB.json/|/( Un fracaso  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/terrible
+com.mobilenik.mobilebanking.individuos.json/|/( POR favor^ solucionar^ EL problema^ LO antes^ posible^  .,0.5,sentiment,2)/|/ArrayBuffer(ArrayBuffer())/|/terrible
+com.mobilenik.mobilebanking.individuos.json/|/( Y prueben bien la aplicacion antes de lanzar a actualizacion  !,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+RB,1.0)))/|/terrible
+com.mercadolibre.json/|/( Esta aplicacion era muy buena  . Pero de un tiempo para acá ha desmejorado hasta volverse inservible  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((INT,2.0), (+JJ,1.0)))/|/terrible
+com.king.candycrushsaga.json/|/( Una estrella por obligacion merece 5  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,2.0)))/|/terrible
+com.google.android.googlequicksearchbox.1.json/|/( Estoy notando que la aplicacion se me cierra al intentar abrir archivos en fin que va como una ^mierda  .,0.0,no-sentiment,2)/|/ArrayBuffer(ArrayBuffer())/|/terrible
+com.google.android.googlequicksearchbox.1.json/|/( El soporte para búsqueda por voz en español es nula  !,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/terrible
+com.mercadolibre.json/|/( Malisima  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/terrible
+com.google.android.googlequicksearchbox.1.json/|/( Malísima  !,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/terrible
+com.king.candycrushsaga.json/|/( Estoy muy disconforme  !,0.0,context-dependent,1)/|/ArrayBuffer(ArrayBuffer((INT,2.0)))/|/terrible
+ar.com.mobatio.lanacion.club.json/|/( Muy mal desarrollado faltan promos y en las q muestran no te dan ninguna info  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-RB,-1.0), (-VB,-1.0)), ArrayBuffer((NEG,-1.0)), ArrayBuffer((NEG,-1.0)))/|/terrible
+com.google.android.gm.json/|/( Actualizar fue lo peor que pude hacer  .,0.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-JJ,-1.0)))/|/terrible
+com.google.android.gm.json/|/( Hicieron un gran desastre de la ^ap antes era más fácil de usar de actualizar y la imagen de juego para niños de kinder que le dieron es espantosa  .,0.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-NN,-2.0)), ArrayBuffer((INT,2.0), (+JJ,1.0)), ArrayBuffer((+VB,1.0)), ArrayBuffer((+VB,1.0)), ArrayBuffer((-JJ,-2.0)))/|/terrible
+com.mobilenik.mobilebanking.individuos.json/|/( ^AjajaMalisimarealmente esto funcionó alguna vez  ?,0.5,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((INT,2.0)))/|/terrible
+org.microemu.android.model.common.VTUserApplicationLINKMB.json/|/( Por favor en nombre de Dios hagan^ UNA nueva^ interfaz^ y con una presentacion como^ LA gente^  .,0.0,no-sentiment,2)/|/ArrayBuffer(ArrayBuffer())/|/terrible
+com.google.android.music.json/|/( Tras usarlo da igual lo que hagas despues vacia la bateria por que mantiene el telefono activo la unica solución es reiniciar el telefono El diseño y la usabilidad es perfecto  . Pero no voy a volver a usarlo hasta que deje de beberse la bateria  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,2.0)), ArrayBuffer((+NN,1.0)), ArrayBuffer((+JJ,1.0)), ArrayBuffer((NEG,-1.0)))/|/terrible
+com.king.candycrushsaga.json/|/( Ésta muy Bueno lastima que no puedo superar ^niveles porque no aparecen las gelatinas  .,-2.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer((INT,2.0)), ArrayBuffer((NEG,-1.0)), ArrayBuffer((NEG,-1.0)))/|/neutro
+com.google.android.gm.json/|/( Muy muy  . Pero muy lenta que cosa más horrible que les paso a los de ^Gogle mejoren está vaina  .,2.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer((INT,2.0), (INT,2.0), (-JJ,-1.0), (INT,2.0), (-JJ,-2.0)), ArrayBuffer((+VB,1.0)))/|/terrible
+ar.com.mobatio.lanacion.club.json/|/( Sería muy útil  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((INT,2.0), (+JJ,1.0)))/|/neutro
+com.mercadolibre.json/|/( Una porqueria  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/terrible
+com.mobilenik.mobilebanking.individuos.json/|/( La merda en aplicación 0 testing después del ultimo update no se puede ingresar al home banking  .,0.0,context-dependent,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)))/|/terrible
+com.mercadolibre.json/|/( No sirve no me carga nada ni fotos ni preguntas grracias al pendejo que hizo esta actualizacion  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0)), ArrayBuffer((NEG,-1.0), (NEG,-1.0), (NEG,-1.0), (NEG,-1.0)), ArrayBuffer((sJJ,-1.0)))/|/terrible
+org.microemu.android.model.common.VTUserApplicationLINKMB.json/|/( Impresentable aplicación  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/terrible
+com.google.android.googlequicksearchbox.1.json/|/( La aplicación en si va bien  . Pero tiene mucho errores aún como lo de autobuses trafico que no se me ponen y no se para que sirve lo de aficiones de deportes ya que no te sirve para nada porque no sale en las tarjetas  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+RB,1.0), (INT,2.0), (-NN,-1.0)), ArrayBuffer((NEG,-1.0)), ArrayBuffer((NEG,-1.0)), ArrayBuffer((+VB,1.0)), ArrayBuffer((NEG,-1.0), (+VB,1.0)), ArrayBuffer((NEG,-1.0), (NEG,-1.0)))/|/neutro
+com.mobilenik.mobilebanking.individuos.json/|/( una cagada  !,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/terrible
+com.mercadolibre.json/|/( Le faltan unas cuantas funciones muy importantes ya descriptas por otros usuarios  .,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-VB,-1.0), (+VB,1.0), (INT,2.0), (+JJ,1.0)))/|/neutro
+com.google.android.music.json/|/( Le falta que le pongan el año a cada álbum y también alguna manera de de marcar la música que ya tienes en tus listas de reproducción para no agregar música repetida y también deben mejorar la descarga tarda en bajar la música tengo cuenta con Spotify y esta un poco mejor  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-NN,-1.0)), ArrayBuffer((+JJ,1.0)), ArrayBuffer((NEG,-1.0)), ArrayBuffer((-VB,-1.0), (+VB,1.0), (-VB,-1.0)), ArrayBuffer((INT,0.5), (+JJ,2.0)))/|/neutro
+com.king.candycrushsaga.json/|/( El juego es buenisimo  . Pero demasiado grande  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0)), ArrayBuffer((-RB,-1.0), (+JJ,1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( Demasiados recursos q siempre acaba bloqueando el movil  .,-1.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-VB,-1.0)))/|/neutro
+com.google.android.gm.json/|/( Buena aplicación  . Pero desde la actualización me pone las categorías de los mensajes de la bandeja de entrada y cuando quiero configurar para desactivar las categorías no guarda la configuración me deja todo igual y no me gusta si va estar asi prefiero ver mi correo en el ordenador  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)), ArrayBuffer((NEG,-1.0)), ArrayBuffer((INT,2.0)), ArrayBuffer((NEG,-1.0), (+VB,1.0)))/|/neutro
+com.google.android.googlequicksearchbox.1.json/|/( Me encantan las novedades por tanto me encanta ^Gogle Now  . Pero me fastidia que la experienxia completa se quede solo en ciertos países  .,1.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,2.0)), ArrayBuffer((+VB,2.0)), ArrayBuffer((-VB,-1.0)))/|/neutro
+com.mobisystems.editor.office_registered.json/|/( Me gustaba mucho esta aplicación  . Pero ahora se congela con un simple documentos de 13 páginas además bloquea el teclado y no se puede hacer nada  .,1.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0), (INT,2.0)), ArrayBuffer((-VB,-1.0)), ArrayBuffer((NEG,-1.0)), ArrayBuffer((NEG,-1.0)))/|/terrible
+com.king.candycrushsaga.json/|/( Es bueno  . Pero  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+JJ,1.0)))/|/neutro
+com.hoyts.json/|/(un fallo muy grave  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-VB,-1.0), (INT,2.0), (-JJ,-1.0)))/|/terrible
+com.google.android.gm.json/|/( urgente^  .,-1.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+com.google.android.googlequicksearchbox.1.json/|/( Tiene buena pinta cuando lo mejoren para España  .,1.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+JJ,1.0)), ArrayBuffer((+VB,1.0)))/|/neutro
+com.google.android.googlequicksearchbox.1.json/|/( Me gustaría sacarle más utilidad  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0), (INT,2.0)))/|/neutro
+com.mercadolibre.json/|/( Lo bueno de la ^ap es que no demora mucho en el acceso  . Pero podrían mejorar o ser mas amigable las opciones del menu  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+JJ,1.0)), ArrayBuffer((NEG,-1.0), (INT,2.0)), ArrayBuffer((+VB,1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( me encanta el juego  . Pero no le puedo poner las cinco estrellas porque me canso de enviar solicitudes de desbloqueo y solo llegan a su destino 2 por lo que di quiero seguir tengo que pagar y no es justo  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,2.0), (+VB,1.0)), ArrayBuffer((NEG,-1.0)), ArrayBuffer((+NN,1.0)), ArrayBuffer((+VB,1.0)), ArrayBuffer((NEG,-1.0), (+JJ,1.0)))/|/neutro
+org.microemu.android.model.common.VTUserApplicationLINKMB.json/|/( Gráfica ^horible^  .,0.0,no-sentiment,2)/|/ArrayBuffer(ArrayBuffer())/|/terrible
+org.microemu.android.model.common.VTUserApplicationLINKMB.json/|/( Interfaz ^horible^  .,0.0,no-sentiment,2)/|/ArrayBuffer(ArrayBuffer())/|/terrible
+com.google.android.googlequicksearchbox.1.json/|/( Saludos y esperamos la mejora gracias  !,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0), (+RB,1.0)))/|/neutro
+com.mobisystems.editor.office_registered.json/|/( Then new fonts package should be ^fre for customer spent money in this ^PROfesional ^aplication  .,2.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+com.mercadolibre.json/|/( Bueno para vichar nada más para vender no se puede  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0), (INT,2.0)), ArrayBuffer((NEG,-1.0)))/|/neutro
+org.microemu.android.model.common.VTUserApplicationLINKMB.json/|/( Si bien funciona la interfaz es UN asco^  !,0.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer((+RB,1.0), (+VB,1.0)))/|/terrible
+com.google.android.gm.json/|/( El nuevo diseño con la barra arriba y los iconos de colores letras fotos apestan al menis para mi  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/terrible
+com.king.candycrushsaga.json/|/( Ya voy x un nivel avanzado  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( Me han dado ganas de desinstalarlo  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)))/|/terrible
+com.mercadolibre.json/|/( Esta muy bien hecho  . Pero no se puede calificar usuarios por eso le doy 2 estrellas podes comprar y buscar  . Pero si o si desp tenes que ir a una pc para calificar es una lastima que no pusieron esa opcion  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((INT,2.0), (+RB,1.0)), ArrayBuffer((NEG,-1.0)), ArrayBuffer((+NN,1.0)), ArrayBuffer((NEG,-1.0)))/|/neutro
+com.google.android.googlequicksearchbox.2.json/|/( Es orrible  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/terrible
+com.google.android.gm.json/|/( Es atractiva  . Pero le faltan cosas esenciales como el botón eliminar más a mano  !,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+JJ,1.0)), ArrayBuffer((-VB,-1.0)), ArrayBuffer((-VB,-1.0), (INT,2.0)))/|/neutro
+com.google.android.music.json/|/( No digo que la aplicación sea mala simplemente voy al hecho de su usoen mi caso me resulta muy molesto buscar el archivo mediante el administrador de archivos y no poder hacerlo directamente del reproductor  .,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-JJ,-1.0)), ArrayBuffer((INT,2.0), (-JJ,-1.0)), ArrayBuffer((NEG,-1.0)))/|/neutro
+com.google.android.music.json/|/( Buena interfax  . Pero en ocasiones se vuelve atras cortandome lo que estaba escuchando  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+com.overflow.cinemark.activity.json/|/( La ^ap esta buena la idea  . Pero tiene erroresme da forzar cierre arreglen eso  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,1.0)), ArrayBuffer((-NN,-1.0)), ArrayBuffer((-VB,-1.0), (-VB,-1.0)))/|/neutro
+com.google.android.music.json/|/( Me gusto mucho la actualización  . Pero hace falta poder cambiar el nombre y un ecualizador bueno  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0), (INT,2.0)), ArrayBuffer((-NN,-1.0)), ArrayBuffer((+JJ,1.0)))/|/neutro
+com.google.android.googlequicksearchbox.1.json/|/( Deben poner mas opciones para cuentas no ligadas a tarjeta de crédito  .,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)))/|/neutro
+twitter.com/|/( increíble en los últimos munitos  !,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+twitter.com/|/( rafael marquez comete penal sobre ^roben  .,-1.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+twitter.com/|/(bueno hicimos un buen partido  . malo  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+JJ,1.0), (+JJ,1.0)))/|/neutro
+twitter.com/|/( quien lo ganara  ?,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0)))/|/neutro
+twitter.com/|/(rt @undeportes nedvsmex ned holanda 00 méxico mex suena el himno de ned 11  . bueno 0 am inicia ^htpt  .,1.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+twitter.com/|/(rt @jeanswift @elluiyodeportes creo que la contra de holanda será demasiado  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-RB,-1.0)))/|/neutro
+twitter.com/|/(rt @latardecom crónica por 90 minutos latarde acompañó a los soldados del batallón san mateo durante el vibrante partido  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,1.0)))/|/neutro
+twitter.com/|/(listos operativos de seguridad ante encuentro méxicoholanda w radio mexico ^htpt  .,1.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer((+JJ,1.0)))/|/neutro
+twitter.com/|/(k tengan un excelente domingo familiar gente de reynosafollow dlb a todos y aver el pardito aunk no me gusta el futbol amp el ^chopersumbando  .,1.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,2.0)), ArrayBuffer((NEG,-1.0), (+VB,1.0)))/|/neutro
+twitter.com/|/(actos protocolarios en el tercer juego de octavos holanda méxico todos los detalles aquí bienvenidos a tarantela mundialista  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)))/|/neutro
+twitter.com/|/(rt @anaelizondo2000 el himno de mexico  . excelente  . excelente  . excelente  . excelente  . excelente  . excelente  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+twitter.com/|/(no me gusta mucho ver futbol  . Pero el martes no me lo pienso perder  .,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0), (+VB,1.0), (INT,2.0)), ArrayBuffer((NEG,-1.0)), ArrayBuffer((-VB,-1.0)))/|/neutro
+twitter.com/|/(esperan el partido toman mate  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+twitter.com/|/(rt @evademetal ya va a jugar mexico  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)))/|/neutro
+twitter.com/|/(game holanda mexico fifa worldcup2014 deporte soccer ella lista para ver el juego ^htpt  .,1.5,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,1.0)), ArrayBuffer((+VB,1.0)))/|/neutro
+twitter.com/|/(rt @rioromamx rt si estas list@ para desayunar jugo de naranja  . bueno  . bueno ^htpt  .,2.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+twitter.com/|/(mexico piojoherrera  . excelente  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+twitter.com/|/(rt @subrayado ya juegan méxico y holanda por el pase a cuartos de final  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)))/|/neutro
+twitter.com/|/(rt @2010misterchip ned 00 mex 1 se han enfrentado en 6 ocasiones méxico ganó las 2 primeras  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)))/|/neutro
+twitter.com/|/(futbol tarde mi amigos  !,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-VB,-1.0)))/|/neutro
+twitter.com/|/( ya va a empezar el partido se te hace tarde  !,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-VB,-1.0)))/|/neutro
+twitter.com/|/(el holandés kuyt cumple su partido 100 con la selección @betcrisintl futbolbetcris  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)))/|/neutro
+twitter.com/|/(^gogle anima juego méxicoholanda con ^39dodle el águila azteca y la orden del león holandés ilustran el d  .,0.5,sentiment,2)/|/ArrayBuffer(ArrayBuffer((+VB,1.0)))/|/neutro
+twitter.com/|/(vivabrasil holanda juega contra méxico en la cancha económica ampgt  .,1.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)), ArrayBuffer((+JJ,1.0)))/|/neutro
+twitter.com/|/(rt @mairethf ^@deportivasv excelente trabajo el que llevan acabo en cada partido asi como gano brasil de milagro esperemos gane méxico  .,2.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,2.0)), ArrayBuffer((+VB,1.0)))/|/neutro
+twitter.com/|/(se me pasa el partido  . malo  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+twitter.com/|/( y las energias van y los dolares vienen entre mi diamante paco bazan y mi amigo  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+NN,1.0)))/|/neutro
+twitter.com/|/(me levante para ver el partido de holanda  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0)))/|/neutro
+twitter.com/|/(arranca el partido entre mex vs ned sigue las mejores acciones y lo que ocurre en las redes sociales aquí  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,2.0)))/|/neutro
+twitter.com/|/(ecuador borra todos tus ^twes facil aprende aqui ^htpt  .,1.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+twitter.com/|/(3er juego octavos de final méxico holanda viva el fútbol  .,1.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0)), ArrayBuffer((+JJ,1.0)))/|/neutro
+twitter.com/|/(rt @faviolatobon y todos nos levantamos temprano para ver el partidolt3lt3lt3  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)))/|/neutro
+twitter.com/|/(rt @m0tivacionesf arjen ^roben ha anotado 8 goles en sus últimos 9 partidos con holanda  .,-1.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+twitter.com/|/(rt @siciertonociert me informan que ya llego el avión de holanda para el final del juego  . bueno ^htpt  .,1.5,sentiment,2)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+twitter.com/|/(rt @joserraespn serio contratiempo para holanda le quedan dos cambios bajo una temperatura muy dura y pierde un hombre clave de jong  .,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((INT,2.0), (-VB,-1.0)))/|/neutro
+twitter.com/|/(rt @mellamokrover méxico es un equipo fuerte  . Pero hay que estar claro que holanda también  !,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,1.0)))/|/neutro
+twitter.com/|/(rt @perfecdelevigne el uniforme de holanda dejó ciego al árbitro  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-JJ,-1.0)))/|/neutro
+twitter.com/|/(es cuestion de que la agarren ^roben y van persie en holanda nada mas  .,-1.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)))/|/neutro
+twitter.com/|/(pero bueno voy a ver el partido sol brasil2014  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+JJ,1.0)))/|/neutro
+twitter.com/|/(rt @munitedes el abrazo de robin van persie y chicharito previo al partido ^htpt  .,0.5,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+NN,1.0)))/|/neutro
+twitter.com/|/(no esperen a nadie en misa de diez porque esta el juego de mexico  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0), (NEG,-1.0)), ArrayBuffer((+VB,1.0)))/|/neutro
+twitter.com/|/(@joserraespn serio contratiempo para holanda le quedan dos cambios bajo una temperatura muy dura y pierde un hombre clave de jong  .,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((INT,2.0), (-VB,-1.0)))/|/neutro
+twitter.com/|/(un primer cambio de holanda que le puede hace falta después  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-NN,-1.0)))/|/neutro
+twitter.com/|/(en vivo alerta mundialista buenas tardes ya se juega la segunda jornada de octavos  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,1.0), (-VB,-1.0), (+VB,1.0)))/|/neutro
+twitter.com/|/(ya se juega el partido mexico vs holanda  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0)))/|/neutro
+twitter.com/|/(directvcopamundial mex 0 ned 0 ^trascure el minuto 12 mejor mexico  .,2.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,2.0)))/|/neutro
+twitter.com/|/(demasiado conservador hasta ahora el partido que hace holanda  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-RB,-1.0)))/|/neutro
+twitter.com/|/(mex esta aguantando bien atras su misión a como va el partido es llegar al medio tiempo sin anotación a favor o en contra  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+RB,1.0)))/|/neutro
+twitter.com/|/(por ahora holanda respeta a méxico o los quiere cansar primero  !,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)))/|/neutro
+twitter.com/|/(los jugadores de brasil deben tener la misma presión que la de un equipo peleando el descenso partido a partido  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-VB,-1.0)))/|/neutro
+twitter.com/|/(van persie no se va a desgastar por el clima  . Pero no se debe confiar porque holanda es muy peligroso  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)), ArrayBuffer((NEG,-1.0), (-VB,-1.0)), ArrayBuffer((INT,2.0), (-JJ,-1.0)))/|/neutro
+twitter.com/|/(rt @mundial2014tm se cumplen los primeros diez minutos y de momento holanda parece incómoda sobre el terreno de juego  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)), ArrayBuffer((+VB,1.0)))/|/neutro
+twitter.com/|/(@stevenarce tienen que esperar a holanda y q se vaya agotando para luego presionarla y robar arriba  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-VB,-2.0)))/|/neutro
+twitter.com/|/(centro de layún con mucho peligro y giovanni dos santos no llega por muy poco mexico esta mejor holvsmex mundialbrasil2014  .,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((INT,2.0)), ArrayBuffer((NEG,-1.0), (INT,2.0), (INT,0.5)), ArrayBuffer((+JJ,2.0)))/|/neutro
+twitter.com/|/(rt @joserraespn serio contratiempo para holanda le quedan dos cambios bajo una temperatura muy dura y pierde un hombre clave de jong  .,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((INT,2.0), (-VB,-1.0)))/|/neutro
+twitter.com/|/(rt @mundial2014vivo se cumplen los primeros diez minutos y de momento holanda parece incómoda sobre el terreno de juego  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)), ArrayBuffer((+VB,1.0)))/|/neutro
+twitter.com/|/(rt @jorgistasmexico simexicoexprimelanaranjamecanica mexico esta jugango mejor no lo niegen ayjshshsh lol  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,2.0)), ArrayBuffer((NEG,-1.0)))/|/neutro
+twitter.com/|/(espero que ese tipo de juego sea estrategia de holanda  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)))/|/neutro
+twitter.com/|/(tremendo partido mexvshol méxico más cerca  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((INT,2.0), (+RB,1.0)))/|/neutro
+twitter.com/|/(entérate mundial méxico vs holanda 15 ^roben desborda por la izquierda  . Pero márquez se cruza y cede saque de  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+twitter.com/|/(mexico no se la pone facil a holanda directvcopamundial  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)))/|/neutro
+twitter.com/|/(rt @clarosports min 17 cerca mexico  !,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+RB,1.0)))/|/neutro
+twitter.com/|/( disparo de herrera en el área que pasa cerca del poste mex 00 ned ^htpt  .,1.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+RB,1.0)))/|/neutro
+twitter.com/|/(holanda sigue jugando así y méxico le va a meter gol  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0)))/|/neutro
+twitter.com/|/(mucho mejor mexico en lo que va de partido han neutroizado a ^roben  .,1.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer((INT,2.0), (+JJ,2.0)))/|/neutro
+twitter.com/|/(directvcopamundial mex jugando mejor que holanda  !,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0), (+JJ,2.0)))/|/neutro
+twitter.com/|/(no se  . Pero si sigue así veo mas rápido el gol de méxico que de holanda  . neutral  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)), ArrayBuffer((+JJ,1.0)))/|/neutro
+twitter.com/|/( defensa flan y de contra te puede matar  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-VB,-1.0)))/|/neutro
+twitter.com/|/(tantos asientos vacios en holanda vs méxico con chile ahí seria una marea roja maravillosa  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,1.0)))/|/neutro
+twitter.com/|/(rt @myidolsaregods vieron que los holandeses pidieron que se pare el partido cada cierto tiempo para hidratarse no aguantan nada estos  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,1.0)), ArrayBuffer((NEG,-1.0)), ArrayBuffer((NEG,-1.0)))/|/neutro
+twitter.com/|/(históricamente brasil y holanda eran las selecciones que mejor jugaban al fútbol  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,2.0), (+VB,1.0)))/|/neutro
+twitter.com/|/(rt @justinbemyangei saben lo difícil que es ^twitear y ver el partido al mismo tiempo  !,-1.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-JJ,-1.0)))/|/neutro
+twitter.com/|/(y mientras vemos un buen partido de méx vs hol mireles y autodefensas se harán invisibles en la opinión pública  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,1.0)))/|/neutro
+twitter.com/|/(el partido no ha sido tan entretenido como se esperaba  .,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0), (INT,2.0), (+VB,1.0)))/|/neutro
+twitter.com/|/(rt @h4rryswhore la frase que gane el mejor no se cumplió ayer en el partido de brasil y chile  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,2.0)), ArrayBuffer((NEG,-1.0)))/|/neutro
+twitter.com/|/( porque el mejor era chile y ganó brasil  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+JJ,2.0)), ArrayBuffer((+VB,1.0)))/|/neutro
+twitter.com/|/(y ahora un holanda apretado  ?,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-JJ,-1.0)))/|/neutro
+twitter.com/|/(rt @noseasmalotv por si faltaba algo para confirmar que holanda y méxico son dos equipos pecho frío hay un corte en el partido por las al  .,-1.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-VB,-1.0)), ArrayBuffer((-JJ,-1.0)))/|/neutro
+twitter.com/|/(se la esta haciendo difícil mexico a holanda  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-JJ,-1.0)))/|/neutro
+twitter.com/|/(rt @shebelut como nos roban nuestras frases aprovechen que estamos fuera de la tv nos metemos en partido  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-VB,-2.0)))/|/neutro
+twitter.com/|/(motivo suficiente para que gane holanda  . excelente  . excelente ^htpt  .,2.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer((+JJ,1.0)))/|/neutro
+twitter.com/|/(mundialbrasil2014 exriver mario yepes capitan de colombia fue titular y jugó todo el partido en lo que fue la victoria frente a uruguay  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((INT,2.0)), ArrayBuffer((+NN,1.0)))/|/neutro
+twitter.com/|/(rt @javiersandy increible paran el partido para beber  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+JJ,1.0)))/|/neutro
+twitter.com/|/(rt @elmasmuco a holanda le hace falta meter a van kerersh y van llevarsh  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-NN,-1.0)))/|/neutro
+twitter.com/|/(rt @hyoconan la famosa ola que se hace en cualquier partido de fútbol del mundo se creo en méxico a huevo  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,1.0)))/|/neutro
+twitter.com/|/(el chile pica mas que la naranja ^j mexicanos pongan todos los huevos  . bueno  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+twitter.com/|/(holanda está bien plantado en su área  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+RB,1.0)))/|/neutro
+twitter.com/|/(es mi impresión u holanda quiere cansar a los mexicanos y están jugando con ellos  ?,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)), ArrayBuffer((+VB,1.0)))/|/neutro
+twitter.com/|/( quién aguanta a los mexicanos si ganan  ?,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)))/|/neutro
+twitter.com/|/(me levanté justo para el partido  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+JJ,1.0)))/|/neutro
+twitter.com/|/(rt @iwuey mientras los holandeses ven el partido los de la michoacana les roban las paletas  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-VB,-2.0)))/|/neutro
+twitter.com/|/(por lo mal q nos ha tratado mex x tema narco inmigración y porque se ^cren america del norte y no latinos hoy estoy apoyando a holanda  .,-1.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer((-RB,-1.0)), ArrayBuffer((NEG,-1.0)))/|/neutro
+twitter.com/|/(@realwbonner mas fácil bélgica parar argentina que holanda  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+JJ,1.0)))/|/neutro
+twitter.com/|/(rt @foxdeportes todos están atentos a este partido del mundialenbrasil  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,2.0)))/|/neutro
+twitter.com/|/(holanda no es que no tenga ganas de ganar  .,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0), (NEG,-1.0), (+VB,1.0), (+VB,1.0)))/|/neutro
+twitter.com/|/(rt @petiheredia esta hermoso el dia para jugar al futbol  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,2.0)), ArrayBuffer((+VB,1.0)))/|/neutro
+twitter.com/|/(mexico estas claro  !,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+JJ,1.0)))/|/neutro
+twitter.com/|/(cowlljtvdxqs triste realidad para algunos  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-JJ,-1.0)))/|/neutro
+twitter.com/|/(holanda pega demasiado  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-RB,-1.0)))/|/neutro
+twitter.com/|/(40 nuevo intento de mexico que pegó al fnal en las piernas de cillesen quien se salva en el tiro originado desde banda derecha y cañón  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-VB,-1.0)))/|/neutro
+twitter.com/|/(almenos el ^coling break puso el cambio el partido ya esta emocionante  .,1.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,1.0)))/|/neutro
+twitter.com/|/(@faitelsonespn las ultimas dos veces que has dicho algo mexico ha disparado al arcosigue hablando  . bueno  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+twitter.com/|/(directvcopamundial muy buena parada del portero de holanda  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((INT,2.0), (+JJ,1.0)))/|/neutro
+twitter.com/|/( ha sido hasta ahora un pobre espectáculo en el castellao  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-JJ,-1.0)))/|/neutro
+twitter.com/|/(rt @sportx100 42 se lo pierde dos santos méxico le hace partido a holanda  !,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-VB,-1.0)))/|/neutro
+twitter.com/|/(@directvsports ned y mex directvcopamundial falta de holanda  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-NN,-1.0)))/|/neutro
+twitter.com/|/( muy buen taco para dar asistencia y después del remate cillesen la saca  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((INT,2.0), (+JJ,1.0)))/|/neutro
+twitter.com/|/(rt @aztecadeportes sulechitayadormir minuto 41 tiro de esquina de holanda que se va de largo ned 00 mex ^htpt  .,-0.5,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-VB,-1.0)))/|/neutro
+twitter.com/|/(si el partido sigue asi gana mexico o se van a penales  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)))/|/neutro
+twitter.com/|/(rt @hyoconan la famosa ola que se hace en cualquier partido de fútbol del mundo se creo en méxico a huevo  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,1.0)))/|/neutro
+twitter.com/|/(holanda solo juega para cansar a méxico ya vendrán los goles  . malo  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0)))/|/neutro
+twitter.com/|/(la luz de mediodía de fortaleza es impresionante  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,2.0)))/|/neutro
+twitter.com/|/(@schmidtclaudia a lo mejor se lo quitan a qatar gt ^htpt  .,2.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,2.0)))/|/neutro
+twitter.com/|/(porque levantar la copa del mundo cuando podes levantar la dia de naranja ^htpt  .,1.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer((+VB,1.0)), ArrayBuffer((+VB,1.0)))/|/neutro
+twitter.com/|/(rt @joseruizb12 orita que entre chicharito mexico se vera mejor  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,2.0)))/|/neutro
+twitter.com/|/(rt @ghiguain buenas noches a tod@s los argentinos y argentinas  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+JJ,1.0)))/|/neutro
+twitter.com/|/(gracias de corazon el aguanto y compromiso  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+RB,1.0)))/|/neutro
+twitter.com/|/(rt ^@foxsportsur podrá méxico eliminar a holanda  ?,-0.5,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-VB,-1.0)))/|/neutro
+twitter.com/|/(nedvsmex 42 buena reacción de ^cillesen ante el disparo de gio cerca méxico  .,2.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,1.0)), ArrayBuffer((+RB,1.0)))/|/neutro
+twitter.com/|/( es un vergüenza  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-NN,-1.0)))/|/neutro
+twitter.com/|/(no es por ser mala  . Pero que partido tan aburrido  .,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)), ArrayBuffer((-JJ,-1.0)), ArrayBuffer((INT,2.0), (-JJ,-1.0)))/|/neutro
+twitter.com/|/(voy a ver el juego de holanda y méxico  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)))/|/neutro
+twitter.com/|/(el juego de holanda méxico esta bastante entretenido  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0)), ArrayBuffer((INT,2.0), (+VB,1.0)))/|/neutro
+twitter.com/|/( no mamen  !,0.0,context-dependent,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)))/|/terrible
+com.google.android.music.json/|/( Ojalá arreglen ese molesto detalle muy pronto y si pueden también cambiar el diseño ya que se ve muy sencillo  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-VB,-1.0), (-JJ,-1.0), (INT,2.0), (+RB,1.0)), ArrayBuffer((INT,2.0)))/|/terrible
+com.google.android.music.json/|/( Mal ^muy mal  !,2.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer((-RB,-1.0)))/|/terrible
+com.google.android.gm.json/|/( Al responder los correos se crean citas y a veces al ^ler correos que contienen las citas respuestas anteriores se muestran estas respuestas sin que uno lo quiera  .,0.5,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)))/|/terrible
+com.dropbox.android.json/|/( Orrible icono y para que lo cambiaron si la interfaz sigue siendo la misma  ?,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/terrible
+com.google.android.gm.json/|/( No lo veo ninguna ventaja  .,0.0,context-dependent,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)))/|/terrible
+com.king.candycrushsaga.json/|/( No me gusta q uno tenga que esperar tiempo entre una vida y otraeso le resta 2 estrellas  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0)), ArrayBuffer((+NN,1.0)))/|/neutro
+com.dropbox.android.json/|/( No mejoraron nada  .,0.0,context-dependent,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)))/|/terrible
+com.google.android.googlequicksearchbox.1.json/|/( Este diseño es bien horrible le quita el lujo a nuestro android cambienla gracias  .,0.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+RB,1.0), (-JJ,-2.0)), ArrayBuffer((+RB,1.0)))/|/terrible
+com.mercadolibre.json/|/( La verdad desde la ultima actualización me aparece forzar cierre luego de buscar el articulo antes funcionaba mejor  . Pero lo dejo de hacer desde su actualización  .,1.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-VB,-1.0)), ArrayBuffer((+VB,1.0), (+JJ,2.0)))/|/neutro
+com.google.android.googlequicksearchbox.2.json/|/( execelente  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.google.android.gm.json/|/( No me gusta porque hay que actualizar para ver si tienes nuevos correos  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0)), ArrayBuffer((+VB,1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( No le doy ni una estrella y lo he desistalado  .,0.0,context-dependent,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)))/|/terrible
+com.google.android.music.json/|/( Como seguidor de los productos de ^Gogle me sorprendió la poca calidad de este reproductor  .,0.0,context-dependent,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((INT,0.5)))/|/terrible
+com.google.android.music.json/|/( Espero que lo mejoren tener mis aplicaciones y servicios centralizados en ^Gogle es cómodo  . Pero esta ^ap me terminó resultando imposible  .,0.5,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)), ArrayBuffer((-JJ,-1.0)))/|/terrible
+org.microemu.android.model.common.VTUserApplicationLINKMB.json/|/( Por favor solucionen este inconveniente ya que la aplicación es muy útil  .,1.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-VB,-1.0)), ArrayBuffer((INT,2.0), (+JJ,1.0)))/|/terrible
+com.google.android.gm.json/|/( Muy padre  .,0.0,context-dependent,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.google.android.apps.translate.json/|/( Hay veces que traduce incorrectamente y ni hablar del modo ^ofline que no funciona nunca  .,-2.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-RB,-1.0)), ArrayBuffer((NEG,-1.0)), ArrayBuffer((NEG,-1.0), (+VB,1.0)), ArrayBuffer((NEG,-1.0)))/|/neutro
+com.google.android.gm.json/|/( Ocupa mucho espacio y a cada rato se actualiza y dice k ya no tengo espacio  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((INT,2.0)), ArrayBuffer((+VB,1.0)), ArrayBuffer((NEG,-1.0)))/|/neutro
+com.google.android.gm.json/|/( cren k si lo desinstalo haya algun problema con mi cel  ?,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-NN,-1.0)))/|/neutro
+com.mercadolibre.json/|/( La ^ap tiene opciones muy básicas deberían traer más como calificar mis ventas compras etc  .,-2.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((INT,2.0), (-VB,-1.0), (INT,2.0)))/|/neutro
+com.mobisystems.editor.office_registered.json/|/( al ^ler pdf al pasar página se queda en blanco y lo e probado con otra ^Ap y lo puedo ^ler me pasa con varios pdf menos mal la compre en rebaja no llego al euro  .,-0.5,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((INT,0.5), (-RB,-1.0)), ArrayBuffer((NEG,-1.0)))/|/neutro
+com.mobilenik.mobilebanking.individuos.json/|/(  . Pero tarda muchisimo para entrar  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-VB,-1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( Me gusta mucho  . Pero hace rato me dÉcija que falta 786474757 para una vida  ?,1.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0), (INT,2.0)), ArrayBuffer((-NN,-1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( Arreglen los errores y le doy 5  .,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-NN,-1.0)))/|/neutro
+com.google.android.googlequicksearchbox.1.json/|/( Es la mejor ^ap y la mas util par todo te sirve gracias por esta gran ^ap  . Pero creo yo que la foto de fondo de la ^ap deberia ser posible cambiarla a tu gusto y no solo la misma imagen o deberia cambiar hasta que cambie esto los 5 y además no todos vivimos en Estados Unidos debe estar los mismos privilegios de haya a ca en mex  .,1.5,sentiment,2)/|/ArrayBuffer(ArrayBuffer((+JJ,2.0)), ArrayBuffer((INT,2.0), (+VB,1.0), (+RB,1.0)), ArrayBuffer((+JJ,1.0)), ArrayBuffer((+VB,1.0)), ArrayBuffer((NEG,-1.0)), ArrayBuffer((NEG,-1.0)), ArrayBuffer((-VB,-1.0)))/|/neutro
+com.google.android.googlequicksearchbox.2.json/|/( Malo Muy Malo Asqueroso  .,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+com.google.android.gm.json/|/( Por ^favorr vuelvan a poner un boton directo para eliminar los correos  .,-0.5,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-VB,-1.0)))/|/neutro
+com.google.android.music.json/|/( Me gustaría que pudiera reproducir mi música o filtrarla por carpeta como la tengo yo ya almacenada que por algo la tengo ya así no  ?,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0)), ArrayBuffer((NEG,-1.0)))/|/neutro
+com.google.android.apps.translate.json/|/( Probé de todo y no logro hacer funcionar la traducción sin conexión  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((INT,2.0)), ArrayBuffer((NEG,-1.0), (+VB,1.0), (+VB,1.0)))/|/neutro
+com.google.android.apps.translate.json/|/( de todas formas online sigue siendo bueno  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,1.0)))/|/neutro
+com.google.android.googlequicksearchbox.1.json/|/( Esta bien  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+RB,1.0)))/|/neutro
+com.google.android.googlequicksearchbox.1.json/|/( El buscador por voz en xperia s no funciona  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0), (+VB,1.0)))/|/neutro
+com.dropbox.android.json/|/( Además debería poder sincronizar carpetas del móvil  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-VB,-1.0)))/|/neutro
+com.google.android.googlequicksearchbox.2.json/|/( Antes estaba mjor q ahora ahora sta mas feo  . malo  .,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-JJ,-1.0)))/|/neutro
+com.google.android.googlequicksearchbox.1.json/|/( En Xperia p al hacer búsquedas de imágenes no permite abrir las imágenes en los resultados además el reconocimiento ^ofline no funciona al no tener conexión directamente no te deja abrir la ^ap  .,-2.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0), (+VB,1.0)), ArrayBuffer((NEG,-1.0), (+VB,1.0)), ArrayBuffer((NEG,-1.0)), ArrayBuffer((NEG,-1.0)))/|/neutro
+com.gm.despegar.json/|/( mejoraría el diseño de la aplicación para que fuera más atractivo  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0)), ArrayBuffer((INT,2.0), (+JJ,1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( Te hacen esperar mucho para pasar de nivel  . malo llevo 35 dias atascado  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((INT,2.0)))/|/neutro
+com.google.android.googlequicksearchbox.1.json/|/( un pena  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-NN,-1.0)))/|/neutro
+com.google.android.gm.json/|/( ^excelente  .,2.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+com.king.candycrushsaga.json/|/( Si dieran mas vida y los regalos se ganaran por punto y no hubiera q comprarlo fuera mejor el juego me gusta  . Pero no le puedo dar cinco estrella pues deverian cambiarlo  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)), ArrayBuffer((NEG,-1.0)), ArrayBuffer((+JJ,2.0), (+VB,1.0), (+VB,1.0)), ArrayBuffer((NEG,-1.0)))/|/neutro
+com.google.android.gm.json/|/( no me llegan las notificaciones arreglen eso por favor lo de ms todo bien  .,1.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)), ArrayBuffer((-VB,-1.0)), ArrayBuffer((INT,2.0), (+RB,1.0)))/|/neutro
+com.google.android.gm.json/|/(  . bueno  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+com.dropbox.android.json/|/( Me gustaría poder desvincular desde mi ordenador otros equipos mediante una clave o poder al menos cerrar sesión en ellos  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0)), ArrayBuffer((INT,0.5)))/|/neutro
+com.dropbox.android.json/|/( Por lo demás bien  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+RB,1.0)))/|/neutro
+com.mercadolibre.json/|/( Util  . Pero falta para igualar la experiencia web  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-NN,-1.0)))/|/neutro
+com.mercadolibre.json/|/(actualizaciones a cada rato es molesto  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-JJ,-1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( El juego es muy bueno  . Pero cuando estas entusiasmado se pone hueon y cuando llevas tiempo sin darle pelota te hace pasar al tiro para que te enganches de nuevo  .,1.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0), (INT,2.0), (+JJ,1.0)), ArrayBuffer((-VB,-1.0)))/|/neutro
+com.mercadolibre.json/|/( Hacen falta opciones  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-NN,-1.0)))/|/neutro
+com.google.android.googlequicksearchbox.1.json/|/( 3hasta que las funciones de usa estén presente en Latinoamérica 3 estrellas aunque sea algunas mas porque en la actualidad no es mucho de ayuda  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)), ArrayBuffer((+NN,1.0)), ArrayBuffer((NEG,-1.0), (INT,2.0), (+VB,2.0)))/|/neutro
+com.google.android.gm.json/|/( Recien vere si es buena como dicen  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,1.0)))/|/neutro
+com.google.android.gm.json/|/( Sería bueno que actaulizaran el widget también  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+JJ,1.0)))/|/neutro
+com.google.android.gm.json/|/( Recien aprendi a utilizar los nuevos cambios por lo cual me quedo con la ultima actualizacion  . Pero falta un manual con los cambios para sacar el maximo provecho de lo contrario quedamos peor que antes  .,-1.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-NN,-1.0)), ArrayBuffer((-JJ,-1.0)))/|/neutro
+com.google.android.googlequicksearchbox.2.json/|/( No es como el ^ap pro vale lapena  .,0.5,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)))/|/neutro
+com.mercadolibre.json/|/( Funciona basicamente  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+org.microemu.android.model.common.VTUserApplicationLINKMB.json/|/( con la actualizacion android 412 para que funcione hay que reinstalarla  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( Es un buen juego le daría 5 estrellas Pero duran mucho para reponer los martillos o bolones voy Por nivel 91 y use los martillos en el 23 y aun no ten ni uno  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+JJ,1.0), (+VB,1.0)), ArrayBuffer((+NN,1.0), (INT,2.0)), ArrayBuffer((NEG,-1.0)), ArrayBuffer((NEG,-1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( Lo unico que no me gusta del juego es que siempre que estoy dos o tres niveles del final dificultan el nivel hasta tener una nueva actualizacion forzandote a gastar un chorro de dinero y mismo asi no lo consigues  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0), (+VB,1.0), (+VB,1.0)), ArrayBuffer((NEG,-1.0)))/|/neutro
+com.google.android.apps.translate.json/|/( Le doí 3 estrellas x q mo me a traducido mis fotos sólo los textos manuales  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+NN,1.0)), ArrayBuffer((INT,0.5)))/|/neutro
+com.google.android.googlequicksearchbox.1.json/|/( Unico y exclusivo  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+JJ,1.0)))/|/neutro
+com.mobisystems.editor.office_registered.json/|/( Me encanta este ^ofice carga rapido y es compatible con la suite de Microsoft  .,2.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer((+VB,2.0)))/|/neutro
+com.mobisystems.editor.office_registered.json/|/( Lo unico que me da error al tratar de guardar cambios en una de excel  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-NN,-1.0)))/|/neutro
+com.mobisystems.editor.office_registered.json/|/( Me lanza un error al intentar guardar mi trabajo y en el error menciona algo que tiene que ver con java  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-NN,-1.0)), ArrayBuffer((-NN,-1.0)))/|/neutro
+com.mobisystems.editor.office_registered.json/|/( Lastima que por esto no la califico como excelente  .,1.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)), ArrayBuffer((+JJ,2.0)))/|/neutro
+com.king.candycrushsaga.json/|/( Pero se acaban las vidas eso ase el juego menos divertido y la verdad estaría bien que t dejarán vidas infinitas  .,1.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0), (INT,0.5), (+JJ,1.0)), ArrayBuffer((+RB,1.0)))/|/neutro
+com.google.android.googlequicksearchbox.2.json/|/( No es perfecto resultados como taringa no se muestran  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+JJ,1.0)), ArrayBuffer((NEG,-1.0)))/|/neutro
+com.google.android.googlequicksearchbox.2.json/|/( Pero es mejor que usar el navegador  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+JJ,2.0)))/|/neutro
+com.mercadolibre.json/|/( Muy bien ^ap  .,2.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer((+RB,1.0)))/|/neutro
+com.google.android.gm.json/|/( en mi Sony Xperia P no me llegan los correos si no lo actualizo  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)), ArrayBuffer((NEG,-1.0), (+VB,1.0)))/|/neutro
+com.google.android.gm.json/|/( No se si es problema de Sony o de Gmail  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-NN,-1.0)))/|/neutro
+com.google.android.gm.json/|/( Solución a eso por favor  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+com.mercadolibre.json/|/( Buena ^ap  .,1.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+com.google.android.gm.json/|/( Deberia ser una ^ap opcional y no q venga preinstalada  .,-0.5,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)))/|/neutro
+com.mercadolibre.json/|/( Estaria bueno que se pudiesen ver los articulos que uno vende  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+JJ,1.0)))/|/neutro
+com.google.android.music.json/|/( mi unico incombeniente es que no puedes evitar que consuma datos yo tengo un plan limitado tambien deberian agregar un soporte para barra de estado permanente en jelly bean  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)))/|/neutro
+com.google.android.apps.translate.json/|/( solucionenlo x favor y pongo 5 Pd Buena idea del guarani^  .,1.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+com.mercadolibre.json/|/( Por lo demás bien  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+RB,1.0)))/|/neutro
+com.mercadolibre.json/|/( Van hacia arriba aunque aún falta mucho  .,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-NN,-1.0), (INT,2.0)))/|/neutro
+com.mercadolibre.json/|/( Excelente  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+com.mobilenik.mobilebanking.individuos.json/|/( No es la mejor aplicación  . Pero me funciona bien  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,2.0)), ArrayBuffer((+VB,1.0), (+RB,1.0)))/|/neutro
+com.mercadolibre.json/|/( Es una buena herramienta  . Pero falta que adicionen Mis Ventas y que realmente avise automaticamente cuando hay novedades  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+JJ,1.0), (-NN,-1.0)), ArrayBuffer((INT,2.0)))/|/neutro
+com.google.android.googlequicksearchbox.1.json/|/( Estaría bien que tuviera mas información en español realmente solo muestra el clima y trayectos  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+RB,1.0)), ArrayBuffer((INT,2.0)))/|/neutro
+com.google.android.googlequicksearchbox.1.json/|/( una pena  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-NN,-1.0)))/|/neutro
+com.google.android.googlequicksearchbox.2.json/|/( Esta horRible la nueva interfaz  !,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+com.google.android.googlequicksearchbox.1.json/|/( Mejorar la integración con el español y 5 estrellas  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+NN,1.0)))/|/neutro
+com.google.android.gm.json/|/( Se había distinguido por ser la mejor para administrar mis correos  . Pero he tenido que enviar los email desde otras cuenta como hotmail y ^Yaho ya que a la hora de subir los archivos solo permite cargar imágenes y vídeos  .,2.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,2.0)), ArrayBuffer((+VB,1.0)))/|/neutro
+com.google.android.apps.translate.json/|/( Tiene todo gracias a esta cosona  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((INT,2.0), (+RB,1.0)))/|/neutro
+com.google.android.apps.translate.json/|/( Pero en mi dispositivo no descarga el paquete del idioma que quiero  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)), ArrayBuffer((+VB,1.0)))/|/neutro
+com.google.android.googlequicksearchbox.1.json/|/( Se tarda para actualizarlo  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-VB,-1.0)))/|/neutro
+com.mercadolibre.json/|/( Falla mucho no llegan las preguntas a tiempos de todas formas funsiona bien cuando quiere  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((INT,2.0)), ArrayBuffer((NEG,-1.0)), ArrayBuffer((+RB,1.0), (+VB,1.0)))/|/neutro
+com.mobilenik.mobilebanking.individuos.json/|/( Primero deben poner su celu en el home banking  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-VB,-1.0)))/|/neutro
+com.mercadolibre.json/|/( No esta mal la aplicacion  . Pero le faltan aun muchas cosas  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-RB,-1.0)), ArrayBuffer((-VB,-1.0), (INT,2.0)))/|/neutro
+com.gm.despegar.json/|/( Es lenta y además la mayoria de cosas son escandalosamente costosas  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-JJ,-1.0)))/|/neutro
+com.google.android.music.json/|/( Me parese que como es un aplicasion creada por Player sera buena  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,1.0)))/|/neutro
+com.google.android.gm.json/|/( Espero que puedan mejorar eso  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)))/|/neutro
+com.mobisystems.editor.office_registered.json/|/(  . Pero cumple con lo basico  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0)))/|/neutro
+com.google.android.music.json/|/( Lo tengo en mi Droid Bionic y Droid Razr me gusta que puedo usarlo con la pantalla bloqueada  . Pero lo que no me gusta en la ultima version es el color naranja que tiene la interfaz de usuario y lo del movimiento en la caratula del album si se pudiera tener estático y un color azul mas a lo stock ics o jelly bean  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)), ArrayBuffer((NEG,-1.0), (+VB,1.0)), ArrayBuffer((+JJ,1.0)))/|/neutro
+com.google.android.music.json/|/(Y no soy el unico que se queja de estas dos cosas  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)), ArrayBuffer((-VB,-1.0)))/|/neutro
+com.google.android.music.json/|/( Aparte es más dificil de acceder solamente a lo que son por ejemplo canciones ya que el menu es bastante confuso  .,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((INT,2.0)), ArrayBuffer((INT,0.5)), ArrayBuffer((INT,2.0), (-JJ,-1.0)))/|/neutro
+com.mobilenik.mobilebanking.individuos.json/|/( Hace un par de días que no se puede lograr entrar al banco móvil  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0), (+VB,1.0)))/|/neutro
+com.google.android.gm.json/|/(pero ahora es mucho más complicado  .,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((INT,2.0), (INT,2.0), (-JJ,-1.0)))/|/neutro
+com.google.android.gm.json/|/(ya no esta la opción de eliminar correo a La vista ni la opción de tildar varios correos para eleliminar  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)), ArrayBuffer((-VB,-1.0)), ArrayBuffer((NEG,-1.0)))/|/neutro
+com.google.android.googlequicksearchbox.1.json/|/( gracias  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+RB,1.0)))/|/neutro
+com.google.android.apps.translate.json/|/( Sin eso pierde gran utilidad  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-VB,-1.0)))/|/neutro
+com.google.android.apps.translate.json/|/( De todos modos es un buen traductor  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( El juego no tiene pega  . Pero la sincronozación con ^facebok es lamentable  .,0.5,sentiment,2)/|/ArrayBuffer(ArrayBuffer((+VB,1.0)), ArrayBuffer((NEG,-1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( No se si será del juego o del ^facebok  . Pero desde luego hace lo que quiere  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)), ArrayBuffer((+VB,1.0)))/|/neutro
+com.gm.despegar.json/|/( Bueno  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+com.google.android.googlequicksearchbox.1.json/|/( Con esta última actualización cambiaron los permisos alguien me puede decir para qué ^Gogle quiere utilizar mi cámara para hacer videos y fotos sin mi permiso  ?,0.5,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)))/|/neutro
+org.microemu.android.model.common.VTUserApplicationLINKMB.json/|/( Interfase muy pobre  .,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((INT,2.0), (-JJ,-1.0)))/|/neutro
+org.microemu.android.model.common.VTUserApplicationLINKMB.json/|/( Funciona rápido  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+JJ,1.0)))/|/neutro
+org.microemu.android.model.common.VTUserApplicationLINKMB.json/|/( hasta el momento no me puedo quejar  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0), (-VB,-1.0)))/|/neutro
+com.google.android.music.json/|/( Su interfaz gráfica mejoró considerablemente está mucho mejor  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((INT,2.0), (INT,2.0), (+JJ,2.0)))/|/neutro
+com.google.android.music.json/|/( Agregarle el explorador parecido al del reproductor de samsung y les doy las 5 estrellas  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+NN,1.0)))/|/neutro
+com.hoyts.json/|/( Deberían dejar borrar las operaciones ya que si salgo y luego justo ve algien esa operación comenzarían las interpretaciones  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( Es buenisimo  . Pero no puedo sincronizar mi movil con el ordenador para poder estar en el mismo nivel  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)))/|/neutro
+com.google.android.gm.json/|/( Últimamente parece que a ^Gogle le gusta añadir pasos para poder realizar una acción en sus aplicaciones  .,0.5,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)))/|/neutro
+com.google.android.gm.json/|/( Lo de las etiquetas de colorines es original  . Pero algo confuso y acciones frecuentes como eliminar un correo ahora requiere 3 pasos  .,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-JJ,-1.0)), ArrayBuffer((-VB,-1.0)), ArrayBuffer((-VB,-1.0)))/|/neutro
+com.google.android.gm.json/|/( Una aplicación de correo tiene que ser útil no pintoresca  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,1.0)), ArrayBuffer((NEG,-1.0)))/|/neutro
+com.mercadolibre.json/|/( Nunca he podido ver mis favoritos con esta aplicación si deseo hacer ver un favorito tengo que hacerlo desde el computador  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,1.0)), ArrayBuffer((+JJ,1.0)))/|/neutro
+com.mercadolibre.json/|/( No te avisa cuando tienes una pregunta ayuda gracias  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,2.0), (+RB,1.0)))/|/neutro
+com.google.android.googlequicksearchbox.1.json/|/( Se puede utilizar en español  . Pero la voz de la tía no podía ser peor  !,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0), (-JJ,-1.0)))/|/neutro
+com.mercadolibre.json/|/( Buena aplicación  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+com.mercadolibre.json/|/( Falta que se conecte un poco mas con mercadopago  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((INT,0.5)))/|/neutro
+com.mercadolibre.json/|/( No se puede pagar cob el dinero disponible en mercadopago  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,1.0)))/|/neutro
+com.mercadolibre.json/|/( Falta la opcion de calificar desde la aplicación y poder administrar ventas publicaciones republicaciones y subastas  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+com.king.candycrushsaga.json/|/( Si este juego es compatible para motoroma raz i Por q no me deja jugar  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0)), ArrayBuffer((NEG,-1.0), (+VB,1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( y este juego me encanta  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0), (+VB,2.0)))/|/neutro
+com.google.android.gm.json/|/( Con esta actualización he perdido las notificaciones  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-VB,-1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( Desde que se me actualizó no me deja jugar aparece la pantalla toda negra ^arreglenlo hace 10 dias que no puedo jugar con el ^celu  . malo tengo el motorola defy  .,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0), (+VB,1.0)), ArrayBuffer((NEG,-1.0), (+VB,1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( Lo descargue a mi telefono  . Pero quiero jugarlo en la computadora y NO me deja  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( Solo me da la opcion para jugarlo^ EN EL telefono^ incluso desde la pantalla de la pc Y la verdad es que yo tenía en la computadora un nivel mucho^ mas alto que el que tengo en el telefono y el tema es que a pesar de que le doy jugar en el telefono y que conecte con ^facebok^ no logro que eso suceda  .,-0.5,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)), ArrayBuffer((NEG,-1.0), (+VB,1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( Debería permitir jugar independientemente en cada lugar  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0), (+VB,1.0)))/|/neutro
+com.google.android.googlequicksearchbox.1.json/|/( Bien  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+com.google.android.gm.json/|/( Excelente  !,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+com.google.android.gm.json/|/( Puede mejorar  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( Estaría bueno filtrar a los usuarios que ya tienen el juego para no molestar a los demas por face  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+JJ,1.0)), ArrayBuffer((+VB,1.0)), ArrayBuffer((NEG,-1.0), (-VB,-1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( Juego atrapante y muy adictivo  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((INT,2.0)))/|/neutro
+com.google.android.music.json/|/( Cuando va a estar disponible la tienda ^gogle en México ^cuando  !,1.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( Le doy 3 estrellas por el tema de las vidas  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+NN,1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( Nunca habia jugado un juego por el cual tubiera que esperar cuando se me acaben las vidas  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0), (+VB,1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( Eso es innecesario  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-JJ,-1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( Por lo demas el juegones muy buenony entretenido  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((INT,2.0), (+VB,1.0)))/|/neutro
+com.google.android.apps.translate.json/|/( Muy mal  .,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-RB,-1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( Me va bastante lento y ralentiza el android  .,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((INT,2.0), (-JJ,-1.0)))/|/neutro
+com.google.android.gm.json/|/( Me gusta que puedo consultar correos antiguos  . Pero falta que se pueda consultar la lista de contactos para enviar un correo debo saberme las direcciones para enviarlo  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0)), ArrayBuffer((-NN,-1.0)), ArrayBuffer((+JJ,1.0)))/|/neutro
+com.mercadolibre.json/|/( Pero falta mucho por agregar como pausar publicaciones republicar modificar datos de la publicación Urge una ^ap para vendedores  !,-2.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer((-NN,-1.0), (INT,2.0)))/|/neutro
+com.google.android.googlequicksearchbox.2.json/|/( Lo probaré y veré si es tan bueno o noy de ahí les colocó las 5 si esta todo ok  !,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((INT,2.0), (+JJ,1.0)), ArrayBuffer((NEG,-1.0)), ArrayBuffer((INT,2.0), (+JJ,1.0)))/|/neutro
+org.microemu.android.model.common.VTUserApplicationLINKMB.json/|/( Hice lo que sugirieron otros usuarios desinstalar y volver a instalar y ahora funciona muy bien  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0), (INT,2.0), (+RB,1.0)))/|/neutro
+org.microemu.android.model.common.VTUserApplicationLINKMB.json/|/( Este detalle debería estar previsto de antemano  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-VB,-1.0)))/|/neutro
+com.google.android.gm.json/|/( Al abrir por primera vez un mail en mi lg p708g se queda el cursor como ^procesando y nunca se muestra el contenido del ^mensaje  . terrible  .,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)))/|/neutro
+com.mercadolibre.json/|/( Le faltan cosas como ver MP y calificar a los usuarios de ahi en fuera va bien  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-VB,-1.0)), ArrayBuffer((+RB,1.0)))/|/neutro
+com.google.android.gm.json/|/( No me permite adjuntar documentos solamente fotos o videos los que tenemos un teléfono de última generación quedamos con las manos atadas al usar esta aplicación otros oferentes de correo móvil si presentan está opción  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0), (INT,0.5)))/|/neutro
+com.google.android.music.json/|/( Por lo de mas esta bien  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+RB,1.0)))/|/neutro
+com.mercadolibre.json/|/( Por favor mejorar la velocidad  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0)))/|/neutro
+com.mercadolibre.json/|/( Agregar ventaspunlicaciomes y se ganan 5 estrellas  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0), (+NN,1.0)))/|/neutro
+com.mercadolibre.json/|/( Buena  . Pero puede mejora r  .,1.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)))/|/neutro
+com.google.android.apps.translate.json/|/( ^ayuda  .,1.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+com.google.android.music.json/|/( creo ke es una ^ap basica y creo que tendrian que ponerle mas perzonalizacion me anda genial el reproductor  . Pero insisto preparenlo para que sea mas perzonalizable  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,2.0)))/|/neutro
+com.king.candycrushsaga.json/|/( Pos conmigo ningun problema por las graficas la pantalla ni nada  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-NN,-1.0)), ArrayBuffer((NEG,-1.0)), ArrayBuffer((NEG,-1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( Todo esta prrfecto en eso  . Pero la vd se me hace aburrido  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-JJ,-1.0)))/|/neutro
+com.mercadolibre.json/|/( OJO Antes de instalar y valorar Le falta pulir muchos detalles es una ^ap incompleta Muy limitada para vender No se pueden eliminar preguntas realizadas Favoritos siguen persistentes a pesar de ya haber finalizado No muestra nickname del vendedor No hay filtros en listado de productos de los vendedores No soporta vídeos No se puede calificar una compra o venta Inicio de cargade ^ap lento Formato de opciones descripción preguntas tedioso y no se nota la descripción y preguntas ya deberian de e  .,-2.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-NN,-1.0), (INT,2.0)), ArrayBuffer((-VB,-1.0)), ArrayBuffer((-JJ,-1.0)), ArrayBuffer((-JJ,-1.0)), ArrayBuffer((NEG,-1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( Está bastante bien  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((INT,2.0), (+RB,1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( Muy adictivo y divertido  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( Pero tiene algunas cosas negativas como que es parte de pago y que tienes que estar pidiendo vidas cada vez que se gastan o esperar 30min por cada una  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-JJ,-1.0)))/|/neutro
+com.hoyts.json/|/( La ap esta muy buena  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((INT,2.0), (+JJ,1.0)))/|/neutro
+com.hoyts.json/|/( lo que tiene de malo es que carece de la venta con promociones  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-JJ,-1.0)))/|/neutro
+com.hoyts.json/|/( en lo demás la verdad me encanta  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,2.0)))/|/neutro
+com.google.android.gm.json/|/( Le falta el boton de ^seleccionar todo para  .,-0.5,sentiment,2)/|/ArrayBuffer(ArrayBuffer((-NN,-1.0)), ArrayBuffer((INT,2.0)))/|/neutro
+com.mercadolibre.json/|/( Con wifi o datos activos las respuestas y mensajes son inmediatos  !,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,2.0)))/|/neutro
+com.google.android.gm.json/|/( Porqué quitaron el botón eliminar  ?,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-VB,-1.0)))/|/neutro
+com.google.android.music.json/|/( Seria bueno que se pudiese reproducir musica segun las carpetas en las que se encuentran ubicadas  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+JJ,1.0)))/|/neutro
+com.mobilenik.mobilebanking.individuos.json/|/( Hay alguna actualizacion o adicional que deba descargar  ?,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-VB,-1.0)))/|/neutro
+com.google.android.googlequicksearchbox.1.json/|/( Y funciona para llamar mandar msjponer música etc y te salen ciertas tarjetas  .,1.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0)), ArrayBuffer((+JJ,1.0)))/|/neutro
+com.google.android.googlequicksearchbox.1.json/|/( Pero como digo le faltan mas funcionalidaes que en ingles s si están  .,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-VB,-1.0)))/|/neutro
+com.google.android.googlequicksearchbox.2.json/|/( me a dejado de funcionar  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)))/|/neutro
+com.mercadolibre.json/|/( Faltaría el modo para ofertar en subastas  !,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+com.mercadolibre.json/|/(muchas muchas gracias  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((INT,2.0), (INT,2.0), (+RB,1.0)))/|/neutro
+com.mobilenik.mobilebanking.individuos.json/|/( Le haria falta un modulo de transferencias y esta listo  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-NN,-1.0)), ArrayBuffer((+JJ,1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( El juego es divertido  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0), (+JJ,1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( Lo malo las pocas vidas k te dan y k hay k esperar mucho para recuperarlas y los ^bostersdan pocos y para conseguir más hay que pagar  .,-0.5,sentiment,2)/|/ArrayBuffer(ArrayBuffer((-JJ,-1.0), (INT,0.5)), ArrayBuffer((INT,2.0)), ArrayBuffer((INT,0.5)), ArrayBuffer((INT,2.0)))/|/neutro
+com.hoyts.json/|/( Por otro lado no me permite reservar o comprar varias butacas con diferentes promociones por ejemplo 2 con personal 2 con rapipago o 2 con club la voz Si arreglan esto seria excelente  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0), (+VB,1.0)), ArrayBuffer((+JJ,2.0)))/|/neutro
+com.gm.despegar.json/|/( Esta buena la ^ap  . Pero no encontre nada para brasil ^osea el medio fail  !,1.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer((+JJ,1.0)), ArrayBuffer((NEG,-1.0)), ArrayBuffer((NEG,-1.0)))/|/neutro
+ar.com.guiaoleo.activity.json/|/( Guía oleo es muy práctico para llevar en el celular  . Pero todavia tiene fallos y fuerza el cierre  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((INT,2.0)), ArrayBuffer((-VB,-1.0)))/|/neutro
+org.microemu.android.model.common.VTUserApplicationLINKMB.json/|/( No funciona en la motorola ^zom con ice cream sandwich  .,-1.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer((+VB,1.0)))/|/neutro
+com.mercadolibre.json/|/( No es mala la ^ap solo que seria excelente si se pudiera vender y calificar desde la ^ap  .,2.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer((-JJ,-1.0)), ArrayBuffer((+JJ,2.0)))/|/neutro
+com.google.android.gm.json/|/( Bonita interfaz  . Pero engorrosa manera de eliminar los mensajes  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-JJ,-1.0), (-VB,-1.0)))/|/neutro
+com.google.android.gm.json/|/( Con la nueva actualizacion de android ya no avisa cuando llega un correo solo q lo actualize  . malo  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)), ArrayBuffer((+VB,1.0)))/|/neutro
+com.google.android.googlequicksearchbox.2.json/|/( Me equivoqué al actualizar me gustaba más la versión anterior  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0), (+VB,1.0), (INT,2.0)))/|/neutro
+com.mercadolibre.json/|/( Le faltaria un mejor desplasamiento de las ventanas  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,2.0)))/|/neutro
+com.mercadolibre.json/|/( eso haria una mejor maniobralidad con respecto a la pagina de mercado libre  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,2.0)), ArrayBuffer((+JJ,1.0)))/|/neutro
+com.mercadolibre.json/|/( Seria un negocio que si funcionaria con gran perspectiva a futuro  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+com.king.candycrushsaga.json/|/( Me gusta  . Pero me han regalado movimientos extra y cuando los intento ocupar no me los agrega y si los quita como si los hubiera usado  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0)), ArrayBuffer((NEG,-1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( Por favor arreglen eso  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-VB,-1.0)))/|/neutro
+com.google.android.apps.translate.json/|/( Ya q necesita internet para usarse  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-VB,-1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( Al principio me encantaba es un juego muy entretenido  . Pero como veran baje estrellas xq el juego se sale de la nada y ultimamente cuando entraba a un nivel no me dejaba ni arrancarlo que se salia y cuando volvia entrar tenia una vida menos entre que ya son pocas  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,2.0), (+VB,1.0), (INT,2.0), (+VB,1.0)), ArrayBuffer((+NN,1.0), (+VB,1.0)), ArrayBuffer((NEG,-1.0)), ArrayBuffer((NEG,-1.0)), ArrayBuffer((NEG,-1.0)), ArrayBuffer((INT,0.5)), ArrayBuffer((INT,0.5)))/|/neutro
+com.mobisystems.editor.office_registered.json/|/( Pese a que no es una mala aplicación dentro de todo creo que debí haber probado otra antes de comprarla  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0), (-JJ,-1.0)), ArrayBuffer((INT,2.0), (-VB,-1.0)))/|/neutro
+com.google.android.googlequicksearchbox.1.json/|/( Le ^falta  .,-0.5,sentiment,2)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+com.google.android.music.json/|/( Quiero y pido que se pueda controlar la reproduccion desde las notificaciones Y que sea canciones en mi musica la pestaña predeterminada  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+com.mobisystems.editor.office_registered.json/|/( Al crear un documento y se le inserta varias imagenes falla  .,-0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-NN,-1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( Buen juego muy adictivopero no puedes usar los movimientos extras que te mandan tus amigos  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0), (INT,2.0)), ArrayBuffer((NEG,-1.0)))/|/neutro
+com.hoyts.json/|/( Buena aplicación cuando lo use voy a poner la calificación más alta  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((INT,2.0)))/|/neutro
+com.mobilenik.mobilebanking.individuos.json/|/( Funcion correcta analisis optimo aceptable aplicacion util para operaciones bancarias aceptables mensaje desde Orion  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,2.0)), ArrayBuffer((+JJ,2.0)))/|/neutro
+com.google.android.music.json/|/( Tengo un Motorola razr y la verdad ni siquiera me aparece la aplicación en la tienda del teléfono y eso que tiene la aplicación instalada de fabrica para actualizarla tuve que buscarla en el navegador muy mal aparte de que no actualiza de forma inmediata la music cuando se agregan nuevas carpetas y se borran otras  .,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)), ArrayBuffer((INT,2.0), (-RB,-1.0)), ArrayBuffer((NEG,-1.0), (+VB,1.0)))/|/neutro
+com.mercadolibre.json/|/( Muy nueva para comprar y responder preguntas  . Pero no puedo ver mis artículos en venta revisar visitas modificar precio o pausar una venta es solo unas aplicación de compra y respuesta sería muy bueno poder ver datos de las ventas para acceder fácilmente al número de teléfono del comprador o correo  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)), ArrayBuffer((INT,2.0), (+JJ,1.0)), ArrayBuffer((+RB,1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( mi amiga tiene este mismo yo he visto como juega y es muy bacan y le funciona bien  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0), (INT,2.0)), ArrayBuffer((+VB,1.0), (+RB,1.0)))/|/neutro
+com.king.candycrushsaga.json/|/(pero yo lo descargué y cuando quiero entrar al juego me sale provocar acercamiento  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0), (+VB,1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( y siempre me ha salido eso no he tenido ninguna oportunidad  . malo para poder jugarlo  . malo  .,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)), ArrayBuffer((NEG,-1.0)))/|/neutro
+com.king.candycrushsaga.json/|/( SOS SOS se apaga constantemente  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/terrible
+com.mobisystems.editor.office_registered.json/|/( ybque quieran cobrar por ellas aparte es un timo  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0)))/|/terrible
+com.mercadolibre.json/|/( Me molesta muchisimo q al salir de cada publicacion q miro la ^ap vuelva al principio de la lista  !,0.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer((-JJ,-1.0)), ArrayBuffer((+JJ,1.0)))/|/terrible
+com.king.candycrushsaga.json/|/( Aun así es genial  .,2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,2.0)))/|/neutro
+com.mercadolibre.json/|/( Lo actualice y dejo de salir las imagenes de los productos y lo desistalo y instalo y no vuelven aparecer mejoren eso  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0), (+VB,1.0)))/|/neutro
+com.mobilenik.mobilebanking.individuos.json/|/( Buena aplicacion  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/neutro
+com.google.android.music.json/|/( El aleatorio es una fatalidad por no decir otra cosa porque solo pone como 10 canciones de 1000 y las repite y las repite  .,0.0,context-dependent,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)))/|/terrible
+test/|/(la adoro  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+test/|/(eres todo en mi vida  .,0.0,context-dependent,1)/|/ArrayBuffer(ArrayBuffer((INT,2.0)))/|/excelente
+test/|/( delicioso  !,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+twitter.com/|/(que partidazo esta haciendo mexico  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.google.android.apps.translate.json/|/( Es una mierda la actualizacion me dice error al firmar los archivos de no se que concha arreiglen ese problema tengo un motorola XT 615 gracias  .,0.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((-NN,-1.0)), ArrayBuffer((NEG,-1.0)), ArrayBuffer((-NN,-1.0)), ArrayBuffer((+RB,1.0)))/|/terrible
+com.google.android.music.json/|/( Exelente reproductor es el q mas uso  .,0.0,context-dependent,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.mercadolibre.json/|/( Tengo mi mercadolibre conmigo en todas partes  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.mercadolibre.json/|/( Muy completa  .,0.0,context-dependent,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.google.android.apps.translate.json/|/( Sumamente necesaria  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.google.android.apps.translate.json/|/( lo recomiedo al 100  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.google.android.googlequicksearchbox.2.json/|/( Sienpre dibertido  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.mercadolibre.json/|/( Exitos ML  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.dropbox.android.json/|/( La uso mucho  .,0.0,context-dependent,1)/|/ArrayBuffer(ArrayBuffer((INT,2.0)))/|/excelente
+com.dropbox.android.json/|/( Siempre es necesaria  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.king.candycrushsaga.json/|/( Es imposible optener la ayuda  .,1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-JJ,-1.0), (+VB,2.0)))/|/terrible
+com.google.android.googlequicksearchbox.1.json/|/( Excellent ^ap  .,0.0,no-sentiment,2)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.google.android.googlequicksearchbox.1.json/|/( Nos toman el pelo  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/terrible
+com.google.android.googlequicksearchbox.1.json/|/( Vergonzoso  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/terrible
+com.king.candycrushsaga.json/|/( Amigable y adictivo  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.google.android.apps.translate.json/|/( Exelente muy practico  .,0.0,context-dependent,1)/|/ArrayBuffer(ArrayBuffer((INT,2.0)))/|/excelente
+com.gm.despegar.json/|/(pero lo demas exelente^  .,0.0,no-sentiment,2)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.google.android.apps.translate.json/|/( es toda una innovación  !,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.mercadolibre.json/|/( Muy buena aplicación excelente para comprar lástima que para los que vendemos sea una versión inferior y necesites casi al 100 de una computadora  .,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+JJ,1.0), (+JJ,2.0), (-NN,-1.0)), ArrayBuffer((-VB,-1.0)))/|/excelente
+com.google.android.apps.translate.json/|/( Pero a veces te traduce como un indio  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/terrible
+com.google.android.apps.translate.json/|/( ^Exelente Aplicacion  .,0.0,no-sentiment,2)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.google.android.googlequicksearchbox.1.json/|/( no sé que carajos le pasa ahora  !,0.0,context-dependent,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)))/|/terrible
+com.mobisystems.editor.office_registered.json/|/( Esa tontería de querer cobrar las fuentes básicas por separado me parece una burla al comprador  .,0.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+VB,1.0)))/|/terrible
+com.dropbox.android.json/|/( Exelente aplicacion  !,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.king.candycrushsaga.json/|/(súper adictivo  .,0.0,context-dependent,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.google.android.apps.translate.json/|/( Esta muy completa  .,0.0,context-dependent,1)/|/ArrayBuffer(ArrayBuffer((INT,2.0)))/|/excelente
+com.google.android.apps.translate.json/|/(Muy didáctico y para la persona que el idioma se le atragantabaun nuevo comienzo  .,0.0,context-dependent,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.google.android.apps.translate.json/|/( Tiene gran fidelidad de reconocimiento de voz  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.king.candycrushsaga.json/|/( Demasiado entretenido  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+VB,1.0)))/|/excelente
+com.google.android.googlequicksearchbox.1.json/|/( Lo uso todo los dias  .,0.0,context-dependent,1)/|/ArrayBuffer(ArrayBuffer((INT,2.0)))/|/excelente
+com.google.android.googlequicksearchbox.2.json/|/( Muy bno  .,0.0,context-dependent,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+org.microemu.android.model.common.VTUserApplicationLINKMB.json/|/( Unos genios  !,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.gm.despegar.json/|/( Ecxelente  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.dropbox.android.json/|/( felicitaciones^  !,0.0,no-sentiment,2)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.king.candycrushsaga.json/|/( Muy bueno para perder el tiempo de una manera muy entretenida  .,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+JJ,1.0), (-VB,-1.0)), ArrayBuffer((INT,2.0)))/|/excelente
+com.google.android.apps.translate.json/|/( Como no podia ser de otra manera ^gogle es una maquina de productos superutiles y sencillos  .,0.0,context-dependent,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0)))/|/excelente
+com.mobilenik.mobilebanking.individuos.json/|/( Recomendada 100  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.dropbox.android.json/|/( Gran aplicación  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.mobisystems.editor.office_registered.json/|/( wow comprenlo  !,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.mobilenik.mobilebanking.individuos.json/|/( Exelente ^ap  !,0.0,no-sentiment,2)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.mobilenik.mobilebanking.individuos.json/|/( ^Recomendadisima  !,0.0,no-sentiment,2)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.google.android.googlequicksearchbox.2.json/|/( Sin palabras  !,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.google.android.googlequicksearchbox.2.json/|/( simplemente exelente  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.google.android.googlequicksearchbox.2.json/|/( Gran ^ap  .,0.0,no-sentiment,2)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+org.microemu.android.model.common.VTUserApplicationLINKMB.json/|/( Exelente  !,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.google.android.googlequicksearchbox.1.json/|/( No hay nada que decir excelente ^ap  .,-2.0,sentiment,2)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((NEG,-1.0), (+JJ,2.0)))/|/excelente
+com.mercadolibre.json/|/( Exelente aplicacion  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.mobisystems.editor.office_registered.json/|/( Super completo  .,0.0,context-dependent,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.dropbox.android.json/|/( Lejos la mejor y más cómoda aplicación que tengo  !,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+JJ,2.0), (INT,2.0)))/|/excelente
+com.mercadolibre.json/|/( Demasiada completa  .,-1.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.google.android.apps.translate.json/|/( Es lo máximo  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.google.android.apps.translate.json/|/( Es exelente  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.google.android.apps.translate.json/|/( Este traductor de verdad que está perfecto en todo sentido me encanta me sirve demasiado rápido preciso excelente en la forma de utilizarlo sin Internet y recomendado  .,-1.5,sentiment,1)/|/ArrayBuffer(ArrayBuffer(), ArrayBuffer((+JJ,1.0), (INT,2.0)), ArrayBuffer((+VB,2.0), (+VB,1.0), (-RB,-1.0), (+JJ,1.0)), ArrayBuffer((+JJ,2.0)), ArrayBuffer((+VB,1.0)))/|/excelente
+com.mercadolibre.json/|/( Exelente sencillamente exelente  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.google.android.googlequicksearchbox.1.json/|/( Excelencia  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.mercadolibre.json/|/( Demasiado bueno se merece cinco estrellas  .,-2.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((+JJ,1.0), (+VB,2.0), (+NN,1.0)))/|/excelente
+com.gm.despegar.json/|/( Exelent  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.king.candycrushsaga.json/|/( Divertidisimo  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.google.android.apps.translate.json/|/( Lo máximo  !,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.dropbox.android.json/|/( Se sincroniza con todos los programas  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.dropbox.android.json/|/( Exelente  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+com.google.android.apps.translate.json/|/( esbuenisimo  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+twitter.com/|/( vamosmexico yo si creo en mi seleccion  .,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+twitter.com/|/(yo si creo en la selección mexicana  !,0.0,no-sentiment,1)/|/ArrayBuffer(ArrayBuffer())/|/excelente
+twitter.com/|/(gane o pierda mexico pa siempre  !,0.0,sentiment,1)/|/ArrayBuffer(ArrayBuffer((-VB,-1.0)))/|/excelente

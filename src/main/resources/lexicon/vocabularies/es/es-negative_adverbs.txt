@@ -6,6 +6,7 @@ demasiados -1
 desafortunadamente -1
 despacio -1
 excesivamente -1
+espantosamente -2
 forzadamente -1
 forzosamente -1
 horriblemente -2
@@ -14,6 +15,7 @@ incorrectamente -1
 inesperadamente -1
 inútilmente -1
 lamentablemente -1
+lastimosamente -2
 lejos -1
 mal -1
 negativamente -1

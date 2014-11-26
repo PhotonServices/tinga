@@ -113,6 +113,7 @@ bonito 1
 bonita 1
 bonitos 1
 bonitas 1
+buen 1
 bueno 1
 buena 1
 buenos 1
@@ -185,6 +186,8 @@ despejado 1
 despejada 1
 despejados 1
 despejadas 1
+destacable 1
+destacables 1
 dichoso 2
 dichosa 2
 dichosa 2
@@ -323,8 +326,7 @@ gracioso 1
 graciosa 1
 graciosos 1
 graciosas 1
-grande 1
-grandes 1
+gran 1
 grandioso 2
 grandiosa 2
 grandiosos 2
@@ -391,6 +393,8 @@ inspirador 1
 inspiradora 1
 inspiradores 1
 inspiradoras 1
+insuperable 2
+insuperables 2
 intelectual 2
 intelectuales 2
 inteligente 2
@@ -401,6 +405,10 @@ inventivo 1
 inventiva 1
 inventivos 1
 inventivas 1
+justo 1
+justa 1
+justos 1
+justas 1
 legendario 1
 legendaria 1
 legendarios 1
@@ -440,6 +448,7 @@ maravillosa 1
 maravillosos 1
 maravillosas 1
 mejor 2
+mejorcito 2
 mejores 2
 memorable 1
 memorables 1
@@ -455,6 +464,10 @@ noble 1
 nobles 1
 notable 1
 notables 1
+novedoso 1
+novedosa 1
+novedosos 1
+novedosas 1
 obediente 1
 obedientes 1
 ok 1
@@ -500,10 +513,6 @@ profesional 2
 profesionales 2
 prominente 1
 prominentes 1
-propio 1
-propia 1
-propios 1
-propias 1
 reciente 1
 recientes 1
 recomendable 1
@@ -579,6 +588,8 @@ sorprendente 1
 sorprendentes 1
 suave 1
 suaves 1
+suficiente 1
+suficientes 1
 talentoso 2
 talentosa 2
 talentosos 2

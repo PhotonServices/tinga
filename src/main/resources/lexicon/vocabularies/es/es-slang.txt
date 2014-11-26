@@ -1,6 +1,12 @@
+bronca -1
+chévere 1
 chingón 1
 chingonsísimo 2
 chimba -1
+chingado -1
+chingada -1
+chingados -1
+chingadas -1
 cochino -1
 culero -1
 culera -1
@@ -18,7 +24,8 @@ padrísima 2
 padrísimos 2
 padrísimas 2
 pedo -1
-pinche 2
+pinche -1
+pinches -1
 pendejo -1
 pendeja -1
 pendejos -1

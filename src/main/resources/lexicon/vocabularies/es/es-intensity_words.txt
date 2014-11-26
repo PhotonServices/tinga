@@ -10,6 +10,10 @@ mucho 2
 mucha 2
 muchos 2
 muchas 2
+muchísimo 2
+muchísima 2
+muchísimos 2
+muchísimas 2
 muy 2
 poco 0.5
 poca 0.5
@@ -26,5 +30,8 @@ sinceramente 1.5
 super 2
 tan 2
 todo 2
+todos 2
+toda 2
+todas 2
 totalmente 2
 verdaderamente 2

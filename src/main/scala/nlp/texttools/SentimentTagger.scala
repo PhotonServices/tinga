@@ -42,8 +42,8 @@ class SentimentTagger(lang: String){
     if(negativeAdverbs contains word) return ("-RB", negativeAdverbs(word).toDouble)
     if(negativeNouns  contains word) return ("-NN", negativeNouns(word).toDouble)
     if(negativeVerbs contains word) return ("-VB", negativeVerbs(word).toDouble)
-    if(intensityWords contains word) return ("iRB", intensityWords(word).toDouble)
-    if(negationWords contains word) return ("nRB", negationWords(word).toDouble)
+    if(intensityWords contains word) return ("INT", intensityWords(word).toDouble)
+    if(negationWords contains word) return ("NEG", negationWords(word).toDouble)
     if(slang contains word) return ("sJJ", slang(word).toDouble)
     return ("-", 0)
   }
@@ -67,8 +67,8 @@ class SentimentTagger(lang: String){
     if(negAdvUnaccented contains word) return ("-RB", negAdvUnaccented(word).toDouble)
     if(negNounsUnaccented  contains word) return ("-NN", negNounsUnaccented(word).toDouble)
     if(negVerbsUnaccented contains word) return ("-VB", negVerbsUnaccented(word).toDouble)
-    if(intWordsUnaccented contains word) return ("iRB", intWordsUnaccented(word).toDouble)
-    if(denWordsUnaccented contains word) return ("nRB", denWordsUnaccented(word).toDouble)
+    if(intWordsUnaccented contains word) return ("INT", intWordsUnaccented(word).toDouble)
+    if(denWordsUnaccented contains word) return ("NEG", denWordsUnaccented(word).toDouble)
     if(slangUnaccented  contains word) return ("sJJ", slangUnaccented (word).toDouble)
     return ("-", 0)
   }

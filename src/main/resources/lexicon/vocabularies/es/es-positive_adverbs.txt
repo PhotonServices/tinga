@@ -17,3 +17,4 @@ perfectamente 2
 positivamente 1
 pronto 1
 rápidamente 1
+velozmente 1

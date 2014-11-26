@@ -5,13 +5,16 @@
 package tinga.sentiment
 
 import tinga.nlp.texttools.TextPreprocessor._
+import tinga.nlp.texttools.TextFeatures._
 import tinga.nlp.texttools.SentimentTagger
 import tinga.nlp.texttools.SentimentUtils._
 import tinga.nlp.texttools.Tokenizer
 import tinga.nlp.texttools.SpellChecker
 import scala.util.matching.Regex
 import scala.collection.mutable.Buffer
-
+import scala.collection.JavaConversions.mapAsScalaMap
+import scala.collection.mutable.Map
+import scala.collection.mutable.Buffer
 
 class Sentiment(lang: String){
   private val _lang = lang
@@ -20,7 +23,6 @@ class Sentiment(lang: String){
   val corrector = new SpellChecker(_lang)
   val sentiTag  = new SentimentTagger(_lang)
   val sentiPrep = sentimentPreprocess(_lang)(_)
-  val responses = List("No sentiment detected", "More context is needed", "Sentiment")
 
   def isUnaccented(str: String) = str.forall(ordinary.contains(_))
 
@@ -53,7 +55,7 @@ class Sentiment(lang: String){
           denierFlag = false
         }
         else{
-          if(element._1 == "nRB" && !denierFlag){
+          if(element._1 == "NEG" && !denierFlag){
             l = l:+ j
             if(doubleNegationLangs contains _lang) denierFlag = true
           }
@@ -77,12 +79,12 @@ class Sentiment(lang: String){
     val adverbs      = List("+RB", "-RB")
     val nouns        = List("+NN", "-NN")
     val verbs        = List("+VB", "-VB")
-    val deniers      = List("nRB")
-    val intensifiers = List("iRB")
-    var adj, adv, nn, vb, den, int = false
+    val deniers      = List("NEG")
+    val intensifiers = List("INT")
+    var adj, adv, nn, vb, den, int, pos, neg = false
     var sentiment = 0.0
     var doubleNeg = false
-    var op = ""
+
     for(tagPair <- sentimentGroup){
       if(den == true && (deniers contains tagPair._1)) doubleNeg = true
       if(adjectives contains tagPair._1) adj = true
@@ -91,12 +93,13 @@ class Sentiment(lang: String){
       if(verbs contains tagPair._1) vb = true
       if(deniers contains tagPair._1) den = true
       if(intensifiers contains tagPair._1) int = true
+      if(tagPair._2 < 0.0 && !(deniers contains tagPair._1)) neg = true
+      if(tagPair._2 > 0.0 && !(intensifiers contains tagPair._1)) pos = true
     }
-    if((adj && nn) || (adv && vb) || ((int || den) && (nn || vb || adj || adv))) op = "mult"
-    else
-      if(nn || vb || adv || adj) op = "sum"
-      else op = "context-dependent"
+
     if(sentimentGroup.length == 0) return (0.0, "no-sentiment")
+    if(!(pos || neg) && (den || int)) return (0.0, "context-dependent")
+
     if(sentimentGroup.length == 1){
       if(nn || vb)
         return (0.5 * sentimentGroup(0)._2.toDouble, "sentiment")
@@ -106,11 +109,10 @@ class Sentiment(lang: String){
         return (sentimentGroup(0)._2.toDouble, "sentiment")
     }
     else{
-      if(op == "sum") sentiment  = sentimentGroup.foldLeft(0.0)(_+_._2)
-      if(op == "mult") sentiment = sentimentGroup.foldLeft(1.0)(_*_._2)
-      if(op == "context-dependent") return (0.0, "context-dependent")
-
-      if(doubleNeg) sentiment = sentiment * -2
+      sentiment = scala.math.abs(sentimentGroup.foldLeft(1.0)(_*_._2))
+      if(neg) sentiment = sentiment * -1
+      if(den) sentiment = sentiment * -1
+      if(doubleNeg) sentiment = sentiment * 2
     }
   (normalizeScore(sentiment), "sentiment")
   }
@@ -137,17 +139,19 @@ class Sentiment(lang: String){
       var int = 1
       var contextDependent = false
       var noSentiment = false
+      var sentiment = false
       for(s <- sentencesScores){
         str = str + s._1
         score = score + s._2
         int = scala.math.max(1, s._4)
         if(s._3 == "context-dependent") contextDependent = true
         if(s._3 == "no-sentiment") noSentiment = true
+        if(s._3 == "sentiment") sentiment = true
       }
-      if(score == 0.0)
+      if(score == 0.0){
         if(contextDependent) return (str, score, "context-dependent", int)
-        if(noSentiment) return(str, score, "no-sentiment", int)
-
+        if(noSentiment && !sentiment) return(str, score, "no-sentiment", int)
+      }
       return (str, normalizeScore(score), "sentiment", int)
     }
     else

@@ -102,11 +102,11 @@ object SentimentUtils{
 
   /* Adversative conjunctions indicate contraposition in sentiment*/
   def replaceAdversativeConjunctions(lang: String)(text: String): String = lang match{
-    case "en" => replaceString(List("but", "still", "however", "yet", "nevertheless"), text, " . ")
-    case "es" => replaceString(List("pero", "sin embargo", "al contrario", "sino", "sino que"), text, " . ")
-    case "fr" => replaceString(List("mais", "toutefois", "cependant", "contrairement à"), text, " . " )
-    case "it" => replaceString(List("ma", "tuttavia", "a differenza di", "però"), text, " . ")
-    case "de" => replaceString(List("aber", "jedoc", "im Gegensatz zu", "sondern"), text, " . ")
+    case "en" => replaceString(List("but", "still", "however", "yet", "nevertheless"), text, " . But ")
+    case "es" => replaceString(List("pero", "sin embargo", "al contrario", "sino", "sino que"), text, " . Pero ")
+    case "fr" => replaceString(List("mais", "toutefois", "cependant", "contrairement à"), text, " . Mais " )
+    case "it" => replaceString(List("ma", "tuttavia", "a differenza di", "però"), text, " . Ma")
+    case "de" => replaceString(List("aber", "jedoc", "im Gegensatz zu", "sondern"), text, " . Aber")
   }
 
   def replaceString(strs: List[String], text: String, replacement: String): String = {
@@ -117,7 +117,7 @@ object SentimentUtils{
   /* Returns a string with emojis-emoticos identified, repeated characters deleted and intensity detected */
   def sentimentPreprocess(lang: String = "en")(text: String): String = {
     val findEmoticons = emoticonsIdentifier(lang)(_)
-    val preprocessText = preprocess(lang)((_:String), true, List('.', '!', '?', '@'))
+    val preprocessText = preprocess(lang)((_:String), true, List('.', '!', '?', '@', ',', ':', ';'))
     val repeatedChars = repeatedCharsHandler(lang)(_)
     val findUpperCase = upperCaseHandler(_)
     val replaceAC= replaceAdversativeConjunctions(lang)(_)
