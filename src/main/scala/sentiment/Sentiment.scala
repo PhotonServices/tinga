@@ -8,8 +8,11 @@ import tinga.nlp.texttools.TextPreprocessor._
 import tinga.nlp.texttools.TextFeatures._
 import tinga.nlp.texttools.SentimentTagger
 import tinga.nlp.texttools.SentimentUtils._
+import tinga.nlp.texttools.PoSTagger
 import tinga.nlp.texttools.Tokenizer
 import tinga.nlp.texttools.SpellChecker
+import tinga.nlp.texttools.WordToken
+import tinga.nlp.texttools.SentenceToken
 import scala.util.matching.Regex
 import scala.collection.mutable.Buffer
 import scala.collection.JavaConversions.mapAsScalaMap
@@ -22,6 +25,7 @@ class Sentiment(lang: String){
   val tokenizer = new Tokenizer(_lang)
   val corrector = new SpellChecker(_lang)
   val sentiTag  = new SentimentTagger(_lang)
+  val tagger    = new PoSTagger(_lang)
   val sentiPrep = sentimentPreprocess(_lang)(_)
 
   def isUnaccented(str: String) = str.forall(ordinary.contains(_))
@@ -158,7 +162,7 @@ class Sentiment(lang: String){
       return ("",0.0,"",0)
   }
 
-  def algebraicSentiment(text: String, spellChecking: Boolean = true): Buffer[(String, Double, String, Int)] = {
+  def sentiment(text: String, spellChecking: Boolean = true): Buffer[(String, Double, String, Int)] = {
     val t = sentiPrep(text)
     if(t == "") return Buffer(("",0.0,"no-sentiment",0))
     val sentences = tokenizer.splitToSentences(t)
@@ -166,6 +170,45 @@ class Sentiment(lang: String){
     val scores = sentimentSentences.map(sS => scoreSentimentSentence(sS))
     val intensity = sentences.map(s => if(s._1 contains "^") 2 else 1)
     sentences.zipWithIndex.map({ case (v,i) => (v._1, scores(i)._1, scores(i)._2, intensity(i))})
+  }
+
+  def wordCloud(text: String): Buffer[String] = {
+    val words = Buffer[String]()
+    val t = sentiPrep(text)
+    val p = tokenizer.tokenize(t)
+    for(s <- p){
+      for(w <- s){
+        w.posTag = tagger.tagsetTransform(w.posTag)
+      }
+    }
+    var unigrams = p map (s => tokenNgrams(s,1))
+    var bigrams = p map (s => tokenNgrams(s, 2))
+    var trigrams = p map (s => tokenNgrams(s, 3))
+
+    def unigramFilter(unigramList: List[List[WordToken]]) = {
+      unigramList filter(x => x(0).posTag == "NOUN")
+    }
+
+    def bigramFilter(bigramList: List[List[WordToken]]) = {
+      bigramList filter(x => (List("NOUN", "ADJ") contains x(0).posTag) && (List("NOUN", "ADJ") contains x(1).posTag))
+    }
+
+    def trigramFilter(trigramList: List[List[WordToken]]) = {
+      trigramList filter(x => (List("NOUN") contains x(0).posTag)         &&
+                              (List("CONJ", "PREP") contains x(1).posTag) &&
+                              (List("NOUN") contains x(2).posTag))
+    }
+  unigrams = unigrams map (unigramFilter)
+  bigrams  = bigrams map (bigramFilter)
+  trigrams = trigrams map (trigramFilter)
+
+  for(i <- 0 to p.length-1){
+    if(!trigrams(i).isEmpty) words.append(trigrams(i)(0).mkString(" "))
+    else if(!bigrams(i).isEmpty) words.append(bigrams(i)(0).mkString(" "))
+         else if(!unigrams(i).isEmpty) words.append(unigrams(i)(0).mkString(" "))
+              else words.append("")
+  }
+  words
   }
 
 }

@@ -5,3 +5,5 @@ filename /|/ line /|/ modification
 es-context.txt /|/ 108 /|/ NN IN SURROUNDTAG IN IN (erased rule)
 es-context.txt /|/ 1 /|/ IN NN PREVTAG NN (erased rule)
 es-context.txt /|/ 213 /|/ DT RB SURROUNDTAG VB JJ (erased rule)
+es-context.txt /|/ previous to rule JJ Zu PREVTAG Zu /|/ DT Zu NEXTWD segundo (erased rule)
+es-context.tzt /|/ entre CURRWD estado y tiempo /|/ NN VB SURROUNDTAG IN VB (erased rule)

@@ -18,34 +18,35 @@ import java.io.ObjectInputStream
 import java.io.ObjectOutputStream
 import scala.collection.mutable.Buffer
 import scala.collection.mutable.ListBuffer
+import scala.collection.immutable.ListMap
 
 class LibSVM( )
 {
   /*Function that extracts the features vectors from a tuple in a Buffer (Training phase)
-   * In:  Buffer[(Int, Map[String, Double])]
+   * In:  Buffer[(Int, ListMap[String, Double])]
    * Out: Buffer[list[Double]] */
-  def extractVectorsTuple(x: Buffer[(Int, Map[String, Double])]) =
+  def extractVectorsTuple(x: Buffer[(Int, ListMap[String, Double])]) =
      for(i <- x) yield  i._2.toList.map (y => y._2)
 
   /*Function that extracts the feature vector from a Map in a buffer (Test phase)
-   * In:   Buffer[Map[String, Double]]
+   * In:   Buffer[ListMap[String, Double]]
    * Out:   Buffer[list[Double]] */
 
-  def extractVectorsMap(x: Buffer[Map[String, Double]]) =
+  def extractVectorsMap(x: Buffer[ListMap[String, Double]]) =
      for(i <- x) yield  i.toList.map (y => y._2)
 
   /*Function that extracts the feature vector from a Map (Test phase)
-   * In:    Map[String, Double]
+   * In:    ListMap[String, Double]
    * Out:   list[Double] */
 
-  def extractVector(x: Map[String, Double]) =
+  def extractVector(x: ListMap[String, Double]) =
        x.toList.map (y => y._2)
 
   /*Function that extracts the feature classes (desired value)  from a tuple ina buffer (Training phase)
-   * In:    Buffer[(Int, Map[String, Double])]
+   * In:    Buffer[(Int, ListMap[String, Double])]
    * Out:   list[Int] */
 
-  def extractVectorClass(x: Buffer[(Int, Map[String, Double])]): List[Int] =
+  def extractVectorClass(x: Buffer[(Int, ListMap[String, Double])]): List[Int] =
      (for(i <- x) yield i._1).toList
 
   /*Function that computes the fraction or the number of correct predictions (Test phase)
@@ -97,7 +98,7 @@ class LibSVM( )
     Out: svm_model (Java object)
   */
 
-  def training(trainingSet: Buffer[(Int,Map[String,Double])], probability: Int = 1, gamma: Double = 0.5, nu: Double = 0.5, C: Double = 1.0, cache_size: Int = 20000, eps: Double = 0.001, kernelType: String = "LINEAR", svmType: String = "C_SVC"): svm_model = {
+  def training(trainingSet: Buffer[(Int,ListMap[String,Double])], probability: Int = 1, gamma: Double = 0.5, nu: Double = 0.5, C: Double = 1.0, cache_size: Int = 20000, eps: Double = 0.001, kernelType: String = "LINEAR", svmType: String = "C_SVC"): svm_model = {
        val listsTraining=extractVectorsTuple(trainingSet)
        val featureClasses =extractVectorClass(trainingSet)
        val prob = new svm_problem()
@@ -180,12 +181,12 @@ class LibSVM( )
 
    /*Function that test a vector (only one)
    * In:
-   *      Map[String,Double]
+   *      ListMap[String,Double]
    *      model:    model created in the training phase
    *      numberClasses: number of different classes in the training phase
    * Out: Prediction (Int)*/
 
-  def testVector(testVector: Map[String,Double], model: svm_model, numberClasses: Int): Int = {
+  def testVector(testVector: ListMap[String,Double], model: svm_model, numberClasses: Int): Int = {
     val listTest=extractVector(testVector)
     val listLength= listTest.length
     val nodes= new Array[svm_node](listLength)
@@ -206,12 +207,12 @@ class LibSVM( )
 
    /*Function that test vectors (set of vectors)
    * In:
-   *      Buffer[Map[String,Double]]
+   *      Buffer[ListMap[String,Double]]
    *      model:    model created in the training phase
    *      numberClasses: number of different classes in the training phase
    * Out: List[Int] (Predictions) */
 
-  def testVectors(testVector: Buffer[Map[String,Double]], model: svm_model, numberClasses: Int): List[Int] = {
+  def testVectors(testVector: Buffer[ListMap[String,Double]], model: svm_model, numberClasses: Int): List[Int] = {
     var predictionList = new ListBuffer[Int]()
     val listsTest=extractVectorsMap(testVector)
     for(listTest <- listsTest)
@@ -236,12 +237,12 @@ class LibSVM( )
 
     /*Function that test vectors with the desire value (set of vectors)
   * In:
-  *      Buffer[(Int,Map[String,Double])]
+  *      Buffer[(Int,ListMap[String,Double])]
   *      model:    model created in the training phase
   *      numberClasses: number of different classes in the training phase
   * Out: String (test accuracy) */
 
-  def testVectorsGoldStandard(testVector: Buffer[(Int,Map[String,Double])],model: svm_model, numberClasses: Int): String = {
+  def testVectorsGoldStandard(testVector: Buffer[(Int,ListMap[String,Double])],model: svm_model, numberClasses: Int): String = {
     val listsTest=extractVectorsTuple(testVector)
     val featureClasses =extractVectorClass(testVector)
     val accuracyList = Buffer[(Int,Int)]()

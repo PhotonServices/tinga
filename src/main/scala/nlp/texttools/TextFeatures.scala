@@ -4,6 +4,9 @@
 
 package tinga.nlp.texttools
 
+import tinga.nlp.texttools.WordToken
+import tinga.nlp.texttools.SentenceToken
+
 object TextFeatures{
   def ngrams(text: String, n: Int = 1): List[String] = {
     def group(splittedText: List[String]): List[List[String]] = splittedText match{
@@ -36,5 +39,18 @@ object TextFeatures{
   def bottomN(m: Map[Any, Double], n: Int): List[(Any, Double)] = {
     val sorted = m.toList.sortBy(_._2)
     sorted.take(n)
+  }
+
+  // Token functions (All functions from here needs tokens defined in tinga.nlp.texttools.Tokenizer)
+
+  /** ngram method
+   *
+   */
+  def tokenNgrams(sentence: SentenceToken, n: Int): List[List[WordToken]] = {
+    def group(splittedText: List[WordToken]): List[List[WordToken]] = splittedText match{
+      case(head :: tail) if(splittedText.length >= n) => splittedText.take(n) :: group(tail)
+      case(_) => Nil
+    }
+    group(sentence.words.toList)
   }
 }

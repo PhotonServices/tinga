@@ -45,7 +45,7 @@ class WordToken(word: String, tag: String, lemma: String){
 
   def relationTag_= (tag: String) = _relationTag = tag
 
-  override def toString() = this._str + "/" + this._posTag
+  override def toString() = this._str //+ "/" + this._posTag
 }
 
 object WordToken{
