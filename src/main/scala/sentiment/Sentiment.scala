@@ -123,18 +123,23 @@ class Sentiment(lang: String){
 
   def scoreSentimentSentence(sentimentSentence: Buffer[(String, Double)]): (Double, String) = {
     val groups = sentimentGroups(sentimentSentence)
+    println(groups.flatMap(x => x))
     var before, current = (0.0, "")
     var score = 0.0
-    var zeroFlag = ""
+    var zeroTag = ""
     if(groups.length >= 1)
       for(i <- 0 to groups.length-1){
         current = scoreSentimentGroup(groups(i))
         score = before._1 + current._1
         before = (score, current._2)
-        zeroFlag = current._2
+        zeroTag = current._2
       }
-    (normalizeScore(score), zeroFlag)
+    (normalizeScore(score), zeroTag)
   }
+
+//  def classifySentimentSentence(sentimentSentence: Buffer[(String, Double)]): (Double, String) = {
+  //  val groups = sentimentGr
+//  }
 
   def globalParagraphScore(sentencesScores: Buffer[(String, Double, String, Int)]): (String, Double, String, Int) = {
     if(sentencesScores.length >= 1){
@@ -167,6 +172,7 @@ class Sentiment(lang: String){
     if(t == "") return Buffer(("",0.0,"no-sentiment",0))
     val sentences = tokenizer.splitToSentences(t)
     val sentimentSentences = sentences.map(s => sentiTag.tagExpression(tokenizer.splitToWords(s._1).map(w => spellCheck(w, spellChecking)), spellChecking))
+    //val classes = sentimentSentences.map(sS => classifySentimentSentence(sS))
     val scores = sentimentSentences.map(sS => scoreSentimentSentence(sS))
     val intensity = sentences.map(s => if(s._1 contains "^") 2 else 1)
     sentences.zipWithIndex.map({ case (v,i) => (v._1, scores(i)._1, scores(i)._2, intensity(i))})
