@@ -11,8 +11,8 @@ import scala.collection.immutable.Map
 
 class SpellChecker(lang: String){
 
-  def train(path: String, enconding: String = "utf-8"): Map[String, Int] = {
-    val file = Source.fromFile(path)
+  def train(path: String, encoding: String = "utf-8"): Map[String, Int] = {
+    val file = Source.fromFile(path, encoding)
     val str = file.getLines.mkString.toLowerCase.filter(x => x<'0' || x>'9')
     file.close
     str.split("( )+").groupBy(identity).mapValues(_.size)
