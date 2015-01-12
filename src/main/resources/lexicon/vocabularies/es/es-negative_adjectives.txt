@@ -1,5 +1,4 @@
 amateur -1
-amateur -1
 abominable -2
 abominables -2
 abrumador -1
@@ -323,6 +322,8 @@ horroroso -2
 horrorosa -2
 horrorosas -2
 horrorosos -1
+idiota -2
+idiotas -2
 ilegal -2
 ilegales -2
 imbécil -1

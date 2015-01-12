@@ -1,7 +1,7 @@
 INT,2.0|+JJ,1.0|/|/excelente
 +VB,2.0|INT,2.0|+VB,1.0|//NEG,-1.0|//INT,2.0|+JJ,1.0|/|/excelente
 +JJ,2.0|/|/excelente
-NEG,-1.0|NEG,-1.0|-NN,-1.0|//+NN,1.0|/|/excelente
+NEG,-1.0|DNEG,-1.0|-NN,-1.0|//+NN,1.0|/|/excelente
 INT,2.0|+NN,1.0|/|/excelente
 INT,2.0|+JJ,1.0|INT,2.0|INT,2.0|/|/excelente
 +VB,1.0|//INT,2.0|+JJ,1.0|/|/excelente
@@ -208,7 +208,7 @@ INT,2.0|+RB,1.0|+VB,1.0|INT,2.0|/|/excelente
 INT,2.0|+JJ,1.0|/|/excelente
 +JJ,1.0|/|/excelente
 +VB,1.0|/|/excelente
-NEG,-1.0|-VB,-1.0|NEG,-1.0|/|/excelente
+NEG,-1.0|-VB,-1.0|DNEG,-1.0|/|/excelente
 +JJ,2.0|/|/excelente
 +JJ,2.0|/|/excelente
 +VB,1.0|INT,2.0|/|/excelente
@@ -514,7 +514,7 @@ INT,2.0|+VB,1.0|INT,2.0|/|/bueno
 +JJ,2.0|/|/bueno
 INT,2.0|+JJ,1.0|//+VB,1.0|//INT,0.5|+NN,1.0|/|/bueno
 INT,2.0|+RB,1.0|/|/bueno
-+VB,1.0|//NEG,-1.0|-VB,-1.0|NEG,-1.0|//+NN,1.0|-VB,-1.0|INT,2.0|//INT,2.0|/|/bueno
++VB,1.0|//NEG,-1.0|-VB,-1.0|DNEG,-1.0|//+NN,1.0|-VB,-1.0|INT,2.0|//INT,2.0|/|/bueno
 NEG,-1.0|//NEG,-1.0|//INT,2.0|/|/bueno
 +JJ,1.0|/|/bueno
 +JJ,1.0|+JJ,1.0|/|/bueno

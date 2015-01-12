@@ -27,6 +27,7 @@ lástima -1
 mierda -2
 obsesión -1
 odio -2
+peligro -1
 pena -1
 porquería -2
 problema -1

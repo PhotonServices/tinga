@@ -1,5 +1,5 @@
 NEG_0
-NEG_0
+DNEG_0
 INT_0
 +NN_0
 -NN_0
@@ -10,7 +10,7 @@ INT_0
 +RB_0
 -RB_0
 NEG_1
-NEG_1
+DNEG_1
 INT_1
 +NN_1
 -NN_1
@@ -21,7 +21,7 @@ INT_1
 +RB_1
 -RB_1
 NEG_2
-NEG_2
+DNEG_2
 INT_2
 +NN_2
 -NN_2
@@ -32,7 +32,7 @@ INT_2
 +RB_2
 -RB_2
 NEG_3
-NEG_3
+DNEG_3
 INT_3
 +NN_3
 -NN_3
@@ -43,7 +43,7 @@ INT_3
 +RB_3
 -RB_3
 NEG_4
-NEG_4
+DNEG_4
 INT_4
 +NN_4
 -NN_4
@@ -54,7 +54,7 @@ INT_4
 +RB_4
 -RB_4
 NEG_5
-NEG_5
+DNEG_5
 INT_5
 +NN_5
 -NN_5
@@ -65,7 +65,7 @@ INT_5
 +RB_5
 -RB_5
 NEG_6
-NEG_6
+DNEG_6
 INT_6
 +NN_6
 -NN_6
@@ -76,7 +76,7 @@ INT_6
 +RB_6
 -RB_6
 NEG_7
-NEG_7
+DNEG_7
 INT_7
 +NN_7
 -NN_7
@@ -87,7 +87,7 @@ INT_7
 +RB_7
 -RB_7
 NEG_8
-NEG_8
+DNEG_8
 INT_8
 +NN_8
 -NN_8
@@ -98,7 +98,7 @@ INT_8
 +RB_8
 -RB_8
 NEG_9
-NEG_9
+DNEG_9
 INT_9
 +NN_9
 -NN_9
