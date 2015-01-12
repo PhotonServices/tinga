@@ -27,6 +27,7 @@ class Sentiment(lang: String){
   val sentiTag  = new SentimentTagger(_lang)
   val tagger    = new PoSTagger(_lang)
   val sentiPrep = sentimentPreprocess(_lang)(_)
+  val sentiClass = new SentimentClassifier(_lang)
 
   def isUnaccented(str: String) = str.forall(ordinary.contains(_))
 
@@ -123,7 +124,6 @@ class Sentiment(lang: String){
 
   def scoreSentimentSentence(sentimentSentence: Buffer[(String, Double)]): (Double, String) = {
     val groups = sentimentGroups(sentimentSentence)
-    println(groups.flatMap(x => x))
     var before, current = (0.0, "")
     var score = 0.0
     var zeroTag = ""
@@ -134,6 +134,8 @@ class Sentiment(lang: String){
         before = (score, current._2)
         zeroTag = current._2
       }
+    //val sentimentClass =
+    println(sentiClass.classify(groups)) 
     (normalizeScore(score), zeroTag)
   }
 
