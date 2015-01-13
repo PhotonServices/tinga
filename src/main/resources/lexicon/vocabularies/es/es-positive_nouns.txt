@@ -4,6 +4,7 @@ amor 1
 beso 1
 cielo 1
 encanto 1
+entusiasmo 1
 esperanza 1
 estupendo 1
 estrellas 1

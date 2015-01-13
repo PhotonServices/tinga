@@ -355,6 +355,8 @@ indefenso -1
 indefensa -1
 indefensos -1
 indefensas -1
+indeseable -1
+indeseables -1
 indigno -1
 indigna -1
 indignos -1

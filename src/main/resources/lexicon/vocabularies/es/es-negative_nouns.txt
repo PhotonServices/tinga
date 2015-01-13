@@ -22,6 +22,7 @@ fallas -1
 falta -1
 fatalidad -2
 fracaso -1
+fraude -2
 infierno -1
 lástima -1
 mierda -2
