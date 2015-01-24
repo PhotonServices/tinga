@@ -107,7 +107,7 @@ class Sentiment(lang: String){
 
     if(sentimentGroup.length == 1){
       if(nn || vb)
-        return (0.5 * sentimentGroup(0)._2.toDouble, "sentiment")
+        return (1.0 * sentimentGroup(0)._2.toDouble, "sentiment")
       if(den || int)
         return (0.0, "context-dependent")
       if(adj || adv)
@@ -124,24 +124,28 @@ class Sentiment(lang: String){
 
   def scoreSentimentSentence(sentimentSentence: Buffer[(String, Double)]): (Double, String) = {
     val groups = sentimentGroups(sentimentSentence)
+    //println(sentimentSentence)
+    //println(groups)
     var before, current = (0.0, "")
     var score = 0.0
     var zeroTag = ""
     if(groups.length >= 1)
       for(i <- 0 to groups.length-1){
         current = scoreSentimentGroup(groups(i))
+        //  println(current)
         score = before._1 + current._1
         before = (score, current._2)
         zeroTag = current._2
       }
-    //val sentimentClass =
-    println(sentiClass.classify(groups)) 
-    (normalizeScore(score), zeroTag)
+    //println(sentiClass.classify(groups))
+    if(score == 0.0){
+      //println(score)
+      (normalizeScore(score), zeroTag)
+      }
+    else
+      (normalizeScore(score), zeroTag)
+      //(sentiClass.classify(groups), zeroTag)
   }
-
-//  def classifySentimentSentence(sentimentSentence: Buffer[(String, Double)]): (Double, String) = {
-  //  val groups = sentimentGr
-//  }
 
   def globalParagraphScore(sentencesScores: Buffer[(String, Double, String, Int)]): (String, Double, String, Int) = {
     if(sentencesScores.length >= 1){
