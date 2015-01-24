@@ -1607,9 +1607,6 @@ tardan -1
 tardando -1
 tarda -1
 tardad -1
-tarde -1
-tardes -1
-tarde -1
 tardemos -1
 tardéis -1
 tarden -1
@@ -1620,7 +1617,6 @@ tardábamos -1
 tardabais -1
 tardaban -1
 tardado -1
-tardé -1
 tardaste -1
 tardó -1
 tardamos -1

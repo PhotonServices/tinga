@@ -18,7 +18,7 @@ fregonsísimo 2
 jodido -1
 jodida -1
 jodidos -1
-jodidas -2
+jodidas -1
 padrísimo 2
 padrísima 2
 padrísimos 2
@@ -30,7 +30,7 @@ pendejo -1
 pendeja -1
 pendejos -1
 pendejas -1
-pendejísimo 2
+pendejísimo -2
 mamón -1
 mamona -1
 mamones -1
