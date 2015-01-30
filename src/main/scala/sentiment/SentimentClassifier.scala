@@ -17,10 +17,10 @@ class SentimentClassifier(lang: String){
   val EXCELLENT = 2
   val TERRIBLE = -2
 
-  val features = readFileToStringList(lexiconDir + "classification/pos_features.txt")
-  val modelBadTerrible = svmObject.loadModel(lexiconDir + "/classification/model/","es-bad-terrible-rbfSVM.model")
-  val modelGoodBad = svmObject.loadModel(lexiconDir + "/classification/model/","es-good-bad-rbfSVM.model")
-  val modelExcellentGood = svmObject.loadModel(lexiconDir + "/classification/model/","es-excellent-good-rbfSVM.model")
+  val features = readFileToStringList(lexiconDir + "classification/features/pos_features.txt").reverse
+  val modelBadTerrible = svmObject.loadRunningModel(lexiconDir + "classification/model/es-bad-terrible-rbfSVM.model")
+  val modelGoodBad = svmObject.loadRunningModel(lexiconDir + "classification/model/es-good-bad-rbfSVM.model")
+  val modelExcellentGood = svmObject.loadRunningModel(lexiconDir + "classification/model/es-excellent-good-rbfSVM.model")
 
   def classify(sentimentGroups: Buffer[Buffer[(String, Double)]]): Double ={
     val vector = vectorize(sentimentGroups)

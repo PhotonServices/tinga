@@ -137,7 +137,7 @@ class Sentiment(lang: String){
         before = (score, current._2)
         zeroTag = current._2
       }
-    //println(sentiClass.classify(groups))
+    println(sentiClass.classify(groups))
     if(score == 0.0){
       //println(score)
       (normalizeScore(score), zeroTag)

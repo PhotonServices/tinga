@@ -179,6 +179,15 @@ class LibSVM( )
     return model
   }
 
+  def loadRunningModel(path: String): svm_model = {
+    println(path)
+    val is = getClass.getClassLoader.getResourceAsStream(path)
+    println(is)
+    val serializeModel = new ObjectInputStream(is)
+    val model:svm_model = (serializeModel.readObject()).asInstanceOf[svm_model]
+    return model
+  }
+
    /*Function that test a vector (only one)
    * In:
    *      ListMap[String,Double]

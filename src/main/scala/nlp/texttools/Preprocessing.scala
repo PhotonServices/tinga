@@ -7,7 +7,8 @@ package tinga.nlp.texttools
 import scala.collection.JavaConversions.mapAsScalaMap
 import scala.collection.mutable.Map
 import scala.collection.mutable.Buffer
-import scala.io.Source
+import java.io.InputStreamReader
+import java.io.BufferedReader
 
 /** Object for preprocessing text
  *
@@ -18,36 +19,44 @@ object TextPreprocessor{
   val punctuationChars = List('.',',',';',':','¡','!','¿','?','(',')','[',']','{','}','`',
                               '\\','\'','@','#','$','^','&','*','+','-','|','=','_','~','%',
                               '<','>','/', '"')
-  var lexiconDir = ""
-  if(getCurrentDirectory.endsWith("tinga"))
-    lexiconDir = getCurrentDirectory + "/src/main/resources/lexicon/"
-  else
-    lexiconDir = getCurrentDirectory + "/texttools/src/main/resources/lexicon/"
 
-  def getCurrentDirectory = new java.io.File( "." ).getCanonicalPath
+  var lexiconDir = "lexicon/"
+
+  def readFileAsStream(path: String): List[String] = {
+    val is = getClass.getClassLoader.getResourceAsStream(path)
+    val isr = new InputStreamReader(is)
+    val br = new BufferedReader(isr)
+    var lines = List[String]()
+    var line = br.readLine
+    while(line != null){
+      lines = line :: lines
+      line = br.readLine
+    }
+    br.close
+    isr.close
+    is.close
+    lines
+  }
 
   def readFileToMap(path: String, encoding: String = "utf-8"): Map[String,String] = {
-    val file = Source.fromFile(path, encoding)
+    println(path)
+    val lines = readFileAsStream(path)
     var map: Map[String, String] = new java.util.HashMap[String, String]
-    for(line <- file.getLines()) {
+    for(line <- lines) {
       if (line.split(" ").length == 2)
-        map += line.split(" ")(0) -> line.split(" ")(1)}
-    file.close
+        map += line.split(" ")(0) -> line.split(" ")(1)
+    }
     map
   }
 
   def readFileToStringList(path: String, encoding: String = "utf-8"): List[String] = {
-    val file = Source.fromFile(path, encoding)
-    val list =file.getLines.toList
-    file.close
-    list
+    println(path)
+    readFileAsStream(path)
   }
 
   def readFileToCharList(path: String, encoding: String = "utf-8"): List[Char] = {
-    val file = Source.fromFile(path, encoding)
-    val list = file.getLines.toList.flatMap(c => c.toCharArray)
-    file.close
-    list
+    println(path)
+    readFileAsStream(path).flatMap(c => c.toCharArray)
   }
 
   def langSpecificChars(lang: String): List[Char] = {

@@ -20,7 +20,7 @@ class SentimentTagger(lang: String){
   val negativeVerbs      = readFileToMap(lexiconDir + f"vocabularies/$lang%s/$lang%s-negative_verbs.txt")
   val intensityWords     = readFileToMap(lexiconDir + f"vocabularies/$lang%s/$lang%s-intensity_words.txt")
   val negationWords      = readFileToMap(lexiconDir + f"vocabularies/$lang%s/$lang%s-negation_words.txt")
-  //val slang              = readFileToMap(lexiconDir + f"vocabularies/$lang%s/$lang%s-slang.txt")
+
   val posAdjUnaccented   = positiveAdjectives map { case(k,v) => (removeDiacritics(k), v) }
   val posAdvUnaccented   = positiveAdverbs map { case(k,v) => (removeDiacritics(k), v) }
   val posNounsUnaccented = positiveNouns map { case(k,v) => (removeDiacritics(k), v) }
@@ -31,7 +31,7 @@ class SentimentTagger(lang: String){
   val negVerbsUnaccented = negativeVerbs map { case(k,v) => (removeDiacritics(k), v) }
   val intWordsUnaccented = intensityWords map { case(k,v) => (removeDiacritics(k), v) }
   val denWordsUnaccented = negationWords map { case(k,v) => (removeDiacritics(k), v) }
-  //val slangUnaccented    = slang map { case(k,v) => (removeDiacritics(k), v) }
+
 
   def tagWord(word: String): (String, Double) = {
     if(positiveAdjectives contains word) return ("+JJ", positiveAdjectives(word).toDouble)
@@ -44,7 +44,6 @@ class SentimentTagger(lang: String){
     if(negativeVerbs contains word) return ("-VB", negativeVerbs(word).toDouble)
     if(intensityWords contains word) return ("INT", intensityWords(word).toDouble)
     if(negationWords contains word) return ("NEG", negationWords(word).toDouble)
-    //if(slang contains word) return ("sJJ", slang(word).toDouble)
     return ("-", 0)
   }
 
@@ -69,7 +68,6 @@ class SentimentTagger(lang: String){
     if(negVerbsUnaccented contains word) return ("-VB", negVerbsUnaccented(word).toDouble)
     if(intWordsUnaccented contains word) return ("INT", intWordsUnaccented(word).toDouble)
     if(denWordsUnaccented contains word) return ("NEG", denWordsUnaccented(word).toDouble)
-    //if(slangUnaccented  contains word) return ("sJJ", slangUnaccented (word).toDouble)
     return ("-", 0)
   }
 }
