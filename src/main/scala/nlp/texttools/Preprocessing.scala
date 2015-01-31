@@ -39,7 +39,6 @@ object TextPreprocessor{
   }
 
   def readFileToMap(path: String, encoding: String = "utf-8"): Map[String,String] = {
-    println(path)
     val lines = readFileAsStream(path)
     var map: Map[String, String] = new java.util.HashMap[String, String]
     for(line <- lines) {
@@ -50,12 +49,10 @@ object TextPreprocessor{
   }
 
   def readFileToStringList(path: String, encoding: String = "utf-8"): List[String] = {
-    println(path)
     readFileAsStream(path)
   }
 
   def readFileToCharList(path: String, encoding: String = "utf-8"): List[Char] = {
-    println(path)
     readFileAsStream(path).flatMap(c => c.toCharArray)
   }
 
