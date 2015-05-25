@@ -16,6 +16,7 @@ class PoSTagger(lang: String) {
   }
 
   private val _lang       = lang
+  private val _mapping    = readFileToMap(lexiconDir+ f"tagsets/penntreebank-universal.txt")
   private val _lexicon    = readFileToMap(lexiconDir + f"pos-trained-corpus/$lang%s-lexicon.txt")
   private val _morphology = readFileToStringList(lexiconDir + f"pos-trained-corpus/$lang%s-morphology.txt")
   private val _context    = readFileToStringList(lexiconDir + f"pos-trained-corpus/$lang%s-context.txt")
@@ -61,7 +62,11 @@ class PoSTagger(lang: String) {
                         ))
 
   def tagsetTransform(tag: String, from: String = "penntreebank", to: String = "universal"): String = {
-    val mapping = readFileToMap(lexiconDir+ f"tagsets/$from%s-$to%s.txt")
+    var mapping = scala.collection.mutable.Map[String, String]()
+    if(from=="penntreebank" && to=="universal")
+      mapping = _mapping
+    else
+      mapping = readFileToMap(lexiconDir+ f"tagsets/$from%s-$to%s.txt")
     mapping.getOrElse(tag, "")
   }
 

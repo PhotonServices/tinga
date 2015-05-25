@@ -22,8 +22,8 @@ object TextPreprocessor{
 
   var lexiconDir = "lexicon/"
 
-  def readFileAsStream(path: String): List[String] = {
-    val is = getClass.getClassLoader.getResourceAsStream(path)
+  def readAsStream(path: String): List[String] = {
+    val is = Thread.currentThread().getContextClassLoader().getResourceAsStream(path)
     val isr = new InputStreamReader(is)
     val br = new BufferedReader(isr)
     var lines = List[String]()
@@ -38,9 +38,10 @@ object TextPreprocessor{
     lines
   }
 
-  def readFileToMap(path: String, encoding: String = "utf-8"): Map[String,String] = {
-    val lines = readFileAsStream(path)
-    var map: Map[String, String] = new java.util.HashMap[String, String]
+  def readFileToMap(path: String): Map[String,String] = {
+    println(path)
+    val lines = readAsStream(path)
+    var map: Map[String, String] = Map[String, String]() //new java.util.HashMap[String, String]
     for(line <- lines) {
       if (line.split(" ").length == 2)
         map += line.split(" ")(0) -> line.split(" ")(1)
@@ -48,12 +49,12 @@ object TextPreprocessor{
     map
   }
 
-  def readFileToStringList(path: String, encoding: String = "utf-8"): List[String] = {
-    readFileAsStream(path)
+  def readFileToStringList(path: String): List[String] = {
+    readAsStream(path)
   }
 
-  def readFileToCharList(path: String, encoding: String = "utf-8"): List[Char] = {
-    readFileAsStream(path).flatMap(c => c.toCharArray)
+  def readFileToCharList(path: String): List[Char] = {
+    readAsStream(path).flatMap(c => c.toCharArray)
   }
 
   def langSpecificChars(lang: String): List[Char] = {

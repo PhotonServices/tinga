@@ -6,14 +6,14 @@ package tinga.nlp.texttools
 
 import TextPreprocessor.langSpecificChars
 import TextPreprocessor.lexiconDir
-import TextPreprocessor.readFileAsStream
+import TextPreprocessor.readAsStream
 import scala.io.Source
 import scala.collection.immutable.Map
 
 class SpellChecker(lang: String){
 
   def train(path: String, encoding: String = "utf-8"): Map[String, Int] = {
-    val lines = readFileAsStream(path)
+    val lines = readAsStream(path)
     val str = lines.mkString(" ").toLowerCase.filter(x => x<'0' || x>'9')
     str.split("( )+").groupBy(identity).mapValues(_.size)
   }
